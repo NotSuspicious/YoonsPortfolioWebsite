@@ -1,6 +1,7 @@
 ---
 import type { ImageMetadata } from 'astro';
 import { getImage } from 'astro:assets';
+import Analytics from '@vercel/analytics/astro';
 import site from '@/data/site.json';
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
@@ -81,6 +82,7 @@ const person = {
     <script is:inline>document.documentElement.classList.add('js');</script>
     <script is:inline type="application/ld+json" set:html={JSON.stringify(person)} />
     {jsonLd.map((obj) => <script is:inline type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', ...obj })} />)}
+    <Analytics />
     <slot name="head" />
   </head>
   <body class:list={[bodyClass, { 'has-overlay-header': overlayHeader }]}>
