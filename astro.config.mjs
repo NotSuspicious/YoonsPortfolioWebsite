@@ -3,8 +3,15 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import redirects from './src/data/redirects.json' with { type: 'json' };
 
+// Public origin of the deployment. Absolute URLs (canonical, og:image, sitemap) are built from it, so it
+// must be the domain that actually serves the build: on Vercel that is the project's production domain
+// (the custom domain once one is attached, otherwise <project>.vercel.app) or the preview URL. Override
+// with SITE_URL; falls back to the final domain for local builds.
+const vercel = process.env.VERCEL_ENV === 'production' ? process.env.VERCEL_PROJECT_PRODUCTION_URL : process.env.VERCEL_URL;
+const site = process.env.SITE_URL || (vercel ? `https://${vercel}` : 'https://www.yoonslee.com');
+
 export default defineConfig({
-  site: 'https://www.yoonslee.com',
+  site,
   output: 'static',
   trailingSlash: 'always',
   // Old Squarespace URLs keep working (meta-refresh pages with canonical links; hosts with
@@ -13,7 +20,7 @@ export default defineConfig({
   integrations: [
     sitemap({
       // Redirect stubs must not be advertised to search engines
-      filter: (page) => !Object.keys(redirects).some((old) => page === `https://www.yoonslee.com${old}/`),
+      filter: (page) => !Object.keys(redirects).some((old) => page === `${site}${old}/`),
     }),
   ],
   image: {

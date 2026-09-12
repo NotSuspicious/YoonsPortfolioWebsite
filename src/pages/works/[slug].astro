@@ -4,6 +4,7 @@ import { getImage } from 'astro:assets';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Pic from '@/components/Pic.astro';
 import site from '@/data/site.json';
+import { siteUrl } from '@/lib/site';
 import { media, dims } from '@/lib/media';
 
 export async function getStaticPaths() {
@@ -24,7 +25,7 @@ const ldImages = await Promise.all(
   blocks.filter((b) => b.type === 'image').slice(0, 6).map(async (b) => {
     const src = media((b as { src: string }).src);
     const r = await getImage({ src, width: Math.min(1200, dims(src).width), format: 'webp', quality: 75, layout: 'none' });
-    return new URL(r.src, site.url).href;
+    return new URL(r.src, siteUrl).href;
   })
 );
 
@@ -35,15 +36,15 @@ const jsonLd = [
     dateCreated: year,
     artMedium: details[0],
     ...(details[1] ? { size: details[1] } : {}),
-    creator: { '@type': 'Person', name: site.name, url: site.url },
-    url: `${site.url}/works/${work.id}/`,
+    creator: { '@type': 'Person', name: site.name, url: siteUrl },
+    url: `${siteUrl}/works/${work.id}/`,
     image: ldImages,
   },
   {
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Works', item: `${site.url}/works/` },
-      { '@type': 'ListItem', position: 2, name: title, item: `${site.url}/works/${work.id}/` },
+      { '@type': 'ListItem', position: 1, name: 'Works', item: `${siteUrl}/works/` },
+      { '@type': 'ListItem', position: 2, name: title, item: `${siteUrl}/works/${work.id}/` },
     ],
   },
 ];
