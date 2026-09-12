@@ -195,7 +195,7 @@ write('src/data/site.json', {
   ],
   social: [
     { type: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/yoons.piece/' },
-    { type: 'email', label: 'moon03058@gmail.com', href: 'mailto:moon03058@gmail.com' },
+    { type: 'email', label: 'contact@yoonslee.com', href: 'mailto:contact@yoonslee.com' },
   ],
   footer: 'All rights reserved by Yoon Lee',
   hero: { ...img(hero.background), alt: 'Installation view of From Mud to Bloom, Yoon Lee, 2025', focal: focal(hero.background.focal), overlay: hero.overlayOpacity ?? 0.15 },
