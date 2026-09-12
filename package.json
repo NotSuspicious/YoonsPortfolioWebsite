@@ -12,7 +12,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "migrate:content": "node scripts/migrate/build-content.mjs"
+    "migrate:content": "node scripts/migrate/build-content.mjs",
+    "og": "node scripts/og/make-card.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
@@ -22,7 +23,9 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
+    "@resvg/resvg-js": "^2.6.2",
     "cheerio": "^1.2.0",
+    "satori": "^0.33.4",
     "typescript": "^5.9.0"
   }
 }

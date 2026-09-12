@@ -68,6 +68,8 @@ All content is plain JSON; images are referenced by file name inside `src/assets
 
 **About / header / footer** — `src/data/about.json` (HTML strings) and `src/data/site.json` (name, nav, social links, hero image, description).
 
+**Link preview (Open Graph / Twitter card)** — when the site URL is shared (iMessage, Slack, Instagram DMs, X, Facebook…), the card shows `public/og-card.jpg` with `site.json → description` as the text. The card is rendered from the About portrait by `npm run og` (`scripts/og/make-card.mjs`, satori + resvg, Baskervville bundled in `scripts/og/fonts/`); re-run it after changing the portrait or wording. Work and exhibition pages use their own image instead, with the page's description. Check a deployed URL with [opengraph.xyz](https://www.opengraph.xyz/) or the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) (which also clears Facebook's cache after a change).
+
 Videos live in `public/video/` (not processed). Keep them short and web-encoded (H.264 MP4, `-movflags +faststart`), or embed from Vimeo/YouTube for long pieces.
 
 ## Deploying

@@ -2,7 +2,6 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Hero from '@/components/Hero.astro';
 import site from '@/data/site.json';
-import { media } from '@/lib/media';
 
 const jsonLd = [
   {
@@ -14,7 +13,7 @@ const jsonLd = [
 ];
 ---
 
-<BaseLayout description={site.description} ogImage={media(site.hero.src)} ogAlt={site.hero.alt} jsonLd={jsonLd} overlayHeader bodyClass="page-home">
+<BaseLayout description={site.description} jsonLd={jsonLd} overlayHeader bodyClass="page-home">
   <h1 class="visually-hidden">{site.name} — interdisciplinary artist: installation, painting, ceramics</h1>
   <Hero />
 </BaseLayout>

@@ -1,7 +1,13 @@
 {
   "name": "Yoon Lee",
   "url": "https://www.yoonslee.com",
-  "description": "Yoon Lee is a Korean-born, Los Angeles-based interdisciplinary artist working in installation, painting, and ceramics. Portfolio of works and exhibitions.",
+  "description": "Yoon Lee is a Korean-born, Los Angeles–based interdisciplinary artist working primarily in installation, combining painting and ceramics. Her practice explores feminine identity through maternal protection, instinct, and love, grounded in her cultural background as a Korean woman.",
+  "ogCard": {
+    "src": "/og-card.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Yoon Lee with her folding-screen painting and ceramic sculpture — Korean-born, Los Angeles-based interdisciplinary artist"
+  },
   "nav": [
     {
       "label": "Home",

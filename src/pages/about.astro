@@ -5,12 +5,12 @@ import about from '@/data/about.json';
 import site from '@/data/site.json';
 import { media } from '@/lib/media';
 
-const description = about.bioHtml.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 300).replace(/\s\S*$/, '') + '…';
+const description = site.description; // the site summary is the opening of the bio
 const portrait = media(about.portrait.src);
 const jsonLd = [{ '@type': 'AboutPage', name: `About ${site.name}`, url: `${site.url}/about/`, mainEntity: { '@type': 'Person', name: site.name, url: site.url } }];
 ---
 
-<BaseLayout title="About" description={description} ogImage={portrait} ogAlt={about.portrait.alt} jsonLd={jsonLd}>
+<BaseLayout title="About" description={description} jsonLd={jsonLd}>
   <article class="about container">
     <h1 class="visually-hidden">About Yoon Lee</h1>
 
