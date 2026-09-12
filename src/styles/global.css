@@ -5,6 +5,7 @@
   color-scheme: light;
 
   --bg: #fff3e6;            /* hsl(31.2 100% 95.1%) */
+  --header-bg: var(--bg);   /* navbar background (also over the home/exhibitions hero images) */
   --fg: #000;
   --accent: #9a7b66;        /* hsl(24.2 20.5% 50.2%) — link colour */
   --overlay: rgb(0 0 0 / 0.15);
