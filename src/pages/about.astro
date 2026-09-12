@@ -3,11 +3,12 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import Pic from '@/components/Pic.astro';
 import about from '@/data/about.json';
 import site from '@/data/site.json';
+import { siteUrl } from '@/lib/site';
 import { media } from '@/lib/media';
 
 const description = site.description; // the site summary is the opening of the bio
 const portrait = media(about.portrait.src);
-const jsonLd = [{ '@type': 'AboutPage', name: `About ${site.name}`, url: `${site.url}/about/`, mainEntity: { '@type': 'Person', name: site.name, url: site.url } }];
+const jsonLd = [{ '@type': 'AboutPage', name: `About ${site.name}`, url: `${siteUrl}/about/`, mainEntity: { '@type': 'Person', name: site.name, url: siteUrl } }];
 ---
 
 <BaseLayout title="About" description={description} jsonLd={jsonLd}>

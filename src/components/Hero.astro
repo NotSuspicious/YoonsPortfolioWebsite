@@ -1,23 +1,52 @@
 ---
+import { getImage } from 'astro:assets';
 import Pic from './Pic.astro';
-import { media } from '@/lib/media';
+import { media, dims } from '@/lib/media';
 import site from '@/data/site.json';
 
 const hero = site.hero;
 const [fx, fy] = hero.focal;
+const src = media(hero.src);
+const { width: srcW, height: srcH } = dims(src);
+
+// Art direction for portrait viewports (phones, tablets held upright): a 2:3 crop of the full
+// image height, centred on the subject, so the middle of the room stays in the middle of the screen.
+// Landscape viewports keep the full photo (cover-fitted with the focal point).
+const PORTRAIT_AR = 2 / 3;
+const cropW = Math.min(srcW, Math.round(srcH * PORTRAIT_AR));
+const cropX = hero.portraitCenter ?? 0.5; // horizontal centre of the crop, 0–1
+const portraitWidths = [480, 640, 800, 960, 1080].filter((w) => w < cropW).concat(cropW);
+const portrait = await Promise.all(
+  portraitWidths.map(async (w) => {
+    const r = await getImage({
+      src,
+      width: w,
+      height: Math.round(w / PORTRAIT_AR),
+      fit: 'cover',
+      position: cropX === 0.5 ? 'centre' : cropX < 0.5 ? 'left' : 'right',
+      format: 'webp',
+      quality: 72,
+      layout: 'none',
+    });
+    return `${r.src} ${w}w`;
+  })
+);
 ---
 
 <section class="hero" aria-label="Featured installation view">
-  <Pic
-    class="hero__img"
-    src={media(hero.src)}
-    alt={hero.alt}
-    sizes="100vw"
-    widths={[768, 1080, 1440, 1920, 2500]}
-    quality={72}
-    priority
-    position={`${(fx * 100).toFixed(1)}% ${(fy * 100).toFixed(1)}%`}
-  />
+  <picture>
+    <source media="(max-aspect-ratio: 1/1)" srcset={portrait.join(', ')} sizes="max(100vw, calc(100vh * 0.667))" type="image/webp" />
+    <Pic
+      class="hero__img"
+      src={src}
+      alt={hero.alt}
+      sizes="100vw"
+      widths={[768, 1080, 1440, 1920, 2500]}
+      quality={72}
+      priority
+      position={`${(fx * 100).toFixed(1)}% ${(fy * 100).toFixed(1)}%`}
+    />
+  </picture>
   <div class="hero__overlay" style={`--overlay-opacity:${hero.overlay}`} aria-hidden="true"></div>
 </section>
 
@@ -33,6 +62,10 @@ const [fx, fy] = hero.focal;
     position: absolute; inset: 0;
     width: 100%; height: 100%;
     object-fit: cover;
+  }
+  /* The portrait crop is already centred on the subject; keep it centred when it is cover-fitted further */
+  @media (max-aspect-ratio: 1/1) {
+    .hero :global(.hero__img) { object-position: 50% 50% !important; }
   }
   .hero__overlay {
     position: absolute; inset: 0;

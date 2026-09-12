@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import HoverIndex from '@/components/HoverIndex.astro';
 import site from '@/data/site.json';
+import { siteUrl } from '@/lib/site';
 import { media } from '@/lib/media';
 
 const exhibitions = (await getCollection('exhibitions')).sort((a, b) => a.data.order - b.data.order);
@@ -11,8 +12,8 @@ const description = `Exhibitions by Yoon Lee: ${exhibitions.map((e) => `${e.data
 const jsonLd = [{
   '@type': 'CollectionPage',
   name: `Exhibitions — ${site.name}`,
-  url: `${site.url}/exhibitions/`,
-  hasPart: exhibitions.map((e) => ({ '@type': 'ExhibitionEvent', name: e.data.title, startDate: e.data.year, url: `${site.url}/exhibitions/${e.id}/` })),
+  url: `${siteUrl}/exhibitions/`,
+  hasPart: exhibitions.map((e) => ({ '@type': 'ExhibitionEvent', name: e.data.title, startDate: e.data.year, url: `${siteUrl}/exhibitions/${e.id}/` })),
 }];
 ---
 

@@ -2,12 +2,13 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Hero from '@/components/Hero.astro';
 import site from '@/data/site.json';
+import { siteUrl } from '@/lib/site';
 
 const jsonLd = [
   {
     '@type': 'WebSite',
     name: site.name,
-    url: site.url,
+    url: siteUrl,
     description: site.description,
   },
 ];

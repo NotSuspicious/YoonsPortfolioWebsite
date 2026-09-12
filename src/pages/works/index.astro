@@ -4,11 +4,12 @@ import GalleryGrid from '@/components/GalleryGrid.astro';
 import Lightbox from '@/components/Lightbox.astro';
 import grid from '@/data/works-grid.json';
 import site from '@/data/site.json';
+import { siteUrl } from '@/lib/site';
 import { media } from '@/lib/media';
 
 const description = 'Works by Yoon Lee — installation, ceramic and sculpture, and painting. Browse the portfolio and open each piece for details and views.';
 const first = grid.sections[0].items[0];
-const jsonLd = [{ '@type': 'CollectionPage', name: `Works — ${site.name}`, url: `${site.url}/works/`, description }];
+const jsonLd = [{ '@type': 'CollectionPage', name: `Works — ${site.name}`, url: `${siteUrl}/works/`, description }];
 ---
 
 <BaseLayout title="Works" description={description} ogImage={media(first.src)} ogAlt={first.alt} jsonLd={jsonLd}>

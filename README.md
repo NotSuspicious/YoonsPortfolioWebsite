@@ -80,7 +80,9 @@ The build is a plain folder of files — any static host works. Point the host a
 - **Vercel** — `vercel.json` carries the same redirects.
 - **GitHub Pages / S3 / anything else** — the meta-refresh stub pages (with canonical links) still redirect old URLs.
 
-Before going live: keep `site` in `astro.config.mjs` as the final domain (it feeds canonical URLs and the sitemap), then submit `https://www.yoonslee.com/sitemap-index.xml` in Google Search Console after the DNS switch.
+**Public origin.** Canonical URLs, the sitemap and the link-preview image are absolute URLs built from `site` in `astro.config.mjs`. On Vercel that is taken from the build environment automatically (`VERCEL_PROJECT_PRODUCTION_URL` for production, i.e. `<project>.vercel.app` until a custom domain is attached, then the custom domain; `VERCEL_URL` for previews). Elsewhere set `SITE_URL=https://…` at build time; with nothing set it falls back to `https://www.yoonslee.com`. This matters for link previews: they only load if `og:image` points at the domain that actually serves the build.
+
+Going live: attach `www.yoonslee.com` to the Vercel project, switch DNS, redeploy, then submit `https://www.yoonslee.com/sitemap-index.xml` in Google Search Console.
 
 ## Media
 

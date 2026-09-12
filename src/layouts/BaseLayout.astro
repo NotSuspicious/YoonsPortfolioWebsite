@@ -3,6 +3,7 @@ import type { ImageMetadata } from 'astro';
 import { getImage } from 'astro:assets';
 import Analytics from '@vercel/analytics/astro';
 import site from '@/data/site.json';
+import { siteUrl } from '@/lib/site';
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
 import '@fontsource/baskervville/400.css';
@@ -42,7 +43,7 @@ const person = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: site.name,
-  url: site.url,
+  url: siteUrl,
   jobTitle: 'Artist',
   description: site.description,
   email: site.social.find((s) => s.type === 'email')?.href.replace('mailto:', ''),
