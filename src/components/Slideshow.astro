@@ -1,29 +1,45 @@
 ---
 /**
- * Artwork slideshow (one per artwork on exhibition pages). Fixed height (75vh), images contain-fitted,
- * side arrows, fade transition, no autoplay — like the original Squarespace gallery section.
+ * Artwork slideshow (one per artwork on exhibition pages). Images are contain-fitted into a fixed-height
+ * frame (75vh on desktop), the caption sits in normal flow *below* the frame, side arrows, fade transition,
+ * no autoplay — like the original Squarespace gallery section.
+ *
+ * Slides are stacked in one grid cell (not absolutely positioned), so the slideshow is always as tall as
+ * its tallest slide (frame + caption) and a caption can never overlap an image, in any browser.
  * Works without JavaScript: all slides render, and CSS shows only the first until the script takes over.
  */
 import Pic from './Pic.astro';
-import { media } from '@/lib/media';
+import { media, dims } from '@/lib/media';
 
 interface Props {
   slides: { src: string; alt: string; caption?: string | null }[];
   /** Accessible name for the region, e.g. the artwork caption. */
   label: string;
   transition?: 'fade' | 'slide';
-  height?: number; // vh
+  height?: number; // vh, desktop frame height
 }
 const { slides, label, transition = 'fade', height = 75 } = Astro.props;
 // Deterministic id (stable HTML between builds): derived from the label + first slide
 const uid = 'ss-' + `${label}-${slides[0]?.src ?? ''}`.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60);
+// Tallest slide's height/width ratio: on phones the frame is sized to it, so landscape-only
+// slideshows are not letterboxed while portrait images still get their height.
+const frameRatio = Math.max(...slides.map((s) => { const d = dims(media(s.src)); return d.height / d.width; }));
 ---
 
-<section class="slideshow" data-slideshow data-transition={transition} style={`--h:${height}vh`} aria-roledescription="carousel" aria-label={label}>
+<section
+  class="slideshow"
+  data-slideshow
+  data-transition={transition}
+  style={`--frame-h:${height}vh;--frame-ar:${frameRatio.toFixed(3)}`}
+  aria-roledescription="carousel"
+  aria-label={label}
+>
   <div class="slideshow__track">
     {slides.map((s, i) => (
       <figure class:list={['slideshow__slide', { 'is-active': i === 0 }]} aria-roledescription="slide" aria-label={`${i + 1} of ${slides.length}`} aria-hidden={i === 0 ? undefined : 'true'}>
-        <Pic src={media(s.src)} alt={s.alt} sizes={`min(94vw, ${height * 1.5}vh)`} widths={[480, 768, 1080, 1440, 2000]} class="slideshow__img" />
+        <div class="slideshow__frame">
+          <Pic src={media(s.src)} alt={s.alt} sizes={`min(94vw, ${height * 1.5}vh)`} widths={[480, 768, 1080, 1440, 2000]} class="slideshow__img" />
+        </div>
         {s.caption && <figcaption class="slideshow__caption">{s.caption}</figcaption>}
       </figure>
     ))}
@@ -73,15 +89,16 @@ const uid = 'ss-' + `${label}-${slides[0]?.src ?? ''}`.toLowerCase().replace(/[^
 
 <style>
   .slideshow {
+    --frame: min(var(--frame-h, 75vh), 1200px);
     position: relative;
-    height: var(--h);
-    max-height: 1200px;
     width: 100%;
   }
-  .slideshow__track { position: relative; width: 100%; height: 100%; overflow: hidden; }
+
+  /* All slides share one grid cell; the cell is as tall as the tallest slide (frame + its caption) */
+  .slideshow__track { display: grid; }
   .slideshow__slide {
-    position: absolute; inset: 0;
-    display: grid; grid-template-rows: 1fr auto;
+    grid-area: 1 / 1;
+    display: flex; flex-direction: column;
     opacity: 0;
     transition: opacity 0.6s var(--ease);
     pointer-events: none;
@@ -89,18 +106,23 @@ const uid = 'ss-' + `${label}-${slides[0]?.src ?? ''}`.toLowerCase().replace(/[^
   .slideshow__slide.is-active { opacity: 1; pointer-events: auto; z-index: 1; }
   [data-transition='slide'] .slideshow__slide { transition: opacity 0.5s var(--ease), transform 0.5s var(--ease); transform: translateX(3%); }
   [data-transition='slide'] .slideshow__slide.is-active { transform: none; }
+
+  /* The image is absolutely positioned inside a fixed-height frame: percentage sizes resolve the same everywhere */
+  .slideshow__frame { position: relative; height: var(--frame); }
   .slideshow :global(.slideshow__img) {
+    position: absolute; inset: 0;
     width: 100%; height: 100%;
-    min-height: 0;
     object-fit: contain;
   }
+
   .slideshow__caption {
     text-align: center;
-    padding: 0.6em clamp(48px, 8vw, 96px) 0;
+    padding: 0.8em clamp(48px, 8vw, 96px) 0;
   }
 
+  /* Arrows centred on the image frame, not on the caption */
   .slideshow__btn {
-    position: absolute; top: 50%; transform: translateY(-50%); z-index: 2;
+    position: absolute; top: calc(var(--frame) / 2); transform: translateY(-50%); z-index: 2;
     width: 56px; height: 72px; padding: 24px 20px;
     transition: opacity 0.25s var(--ease);
   }
@@ -110,8 +132,9 @@ const uid = 'ss-' + `${label}-${slides[0]?.src ?? ''}`.toLowerCase().replace(/[^
   .slideshow__btn--next { right: 0; }
 
   @media (max-width: 767px) {
-    .slideshow { height: min(var(--h), 70vw + 4em); }
+    /* Frame height follows the tallest image's aspect ratio so landscape sets are not letterboxed */
+    .slideshow { --frame: min(var(--frame-h, 75vh), calc((100vw - 2 * var(--gutter)) * var(--frame-ar, 0.667))); }
     .slideshow__btn { width: 44px; height: 60px; padding: 18px 14px; }
-    .slideshow__caption { padding-inline: 44px; font-size: 0.95em; }
+    .slideshow__caption { padding: 0.6em 8px 0; font-size: 0.95em; }
   }
 </style>
