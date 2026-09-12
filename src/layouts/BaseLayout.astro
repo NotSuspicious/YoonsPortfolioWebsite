@@ -89,6 +89,10 @@ const person = {
     <script is:inline>document.documentElement.classList.add('js');</script>
     <script is:inline type="application/ld+json" set:html={JSON.stringify(person)} />
     {jsonLd.map((obj) => <script is:inline type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', ...obj })} />)}
+    <script is:inline>
+      window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+    </script>
+    <script is:inline defer src="/_vercel/speed-insights/script.js"></script>
     <slot name="head" />
   </head>
   <body class:list={[bodyClass, { 'has-overlay-header': overlayHeader }]}>
