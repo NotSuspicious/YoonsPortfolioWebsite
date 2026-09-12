@@ -1,0 +1,34 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import GalleryGrid from '@/components/GalleryGrid.astro';
+import Lightbox from '@/components/Lightbox.astro';
+import grid from '@/data/works-grid.json';
+import site from '@/data/site.json';
+import { media } from '@/lib/media';
+
+const description = 'Works by Yoon Lee — installation, ceramic and sculpture, and painting. Browse the portfolio and open each piece for details and views.';
+const first = grid.sections[0].items[0];
+const jsonLd = [{ '@type': 'CollectionPage', name: `Works — ${site.name}`, url: `${site.url}/works/`, description }];
+---
+
+<BaseLayout title="Works" description={description} ogImage={media(first.src)} ogAlt={first.alt} jsonLd={jsonLd}>
+  <h1 class="visually-hidden">Works</h1>
+  {grid.sections.map((section, i) => (
+    <>
+      <section class="section-heading" data-reveal>
+        <h2 class="works-heading">{section.heading}</h2>
+      </section>
+      <section class="section section--flush" aria-label={section.heading}>
+        <GalleryGrid items={section.items} columns={section.columns} priorityCount={i === 0 ? 4 : 0} />
+      </section>
+    </>
+  ))}
+  <div class="works-end" aria-hidden="true"></div>
+  <Lightbox />
+</BaseLayout>
+
+<style>
+  .works-heading { font-size: var(--fs-body); line-height: var(--lh-body); margin: 0; font-weight: 400; text-wrap: balance; }
+  .section-heading:first-of-type { min-height: 20vh; }
+  .works-end { height: var(--section-pad); }
+</style>

@@ -1,0 +1,102 @@
+{
+  "title": "The Weight of Blossom",
+  "year": "2025",
+  "details": [
+    "Ceramic",
+    "12 x 12 x 30 in"
+  ],
+  "order": 2,
+  "listed": true,
+  "cover": "install.jpg",
+  "sqsPath": "/new-page-71-2-4",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "dsc-9961.jpg",
+      "alt": "The Weight of Blossom (2025) by Yoon Lee, Ceramic — image 1 of 8",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "dsc-9822-c60ddc.jpg",
+      "alt": "The Weight of Blossom (2025) by Yoon Lee, Ceramic — image 2 of 8",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "dsc-9839.jpg",
+      "alt": "The Weight of Blossom (2025) by Yoon Lee, Ceramic — image 3 of 8",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "dsc-9824.jpg",
+      "alt": "The Weight of Blossom (2025) by Yoon Lee, Ceramic — image 4 of 8",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "carring-blossom-be354a.jpg",
+      "alt": "The Weight of Blossom (2025) by Yoon Lee, Ceramic — image 5 of 8",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "jokja-0478.jpg",
+      "alt": "The Weight of Blossom (2025) by Yoon Lee, Ceramic — image 6 of 8",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "jokja-9797.jpg",
+      "alt": "The Weight of Blossom (2025) by Yoon Lee, Ceramic — image 7 of 8",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "jokja-0624.jpg",
+      "alt": "The Weight of Blossom (2025) by Yoon Lee, Ceramic — image 8 of 8",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

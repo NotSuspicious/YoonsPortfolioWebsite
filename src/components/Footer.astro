@@ -1,0 +1,16 @@
+---
+import site from '@/data/site.json';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <p>© {year} {site.footer}</p>
+</footer>
+
+<style>
+  .site-footer {
+    padding: 2.4vw var(--gutter) max(2.4vw, env(safe-area-inset-bottom));
+    text-align: center;
+  }
+  @media (max-width: 767px) { .site-footer { padding-block: 8vw; } }
+</style>

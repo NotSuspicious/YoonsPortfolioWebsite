@@ -1,0 +1,43 @@
+{
+  "title": "Persona",
+  "year": "2024",
+  "details": [
+    "Acrylics on a Punching Bag",
+    "47 in"
+  ],
+  "order": 13,
+  "listed": true,
+  "cover": "yoon-lee-project-image-3.jpg",
+  "sqsPath": "/new-page-71-1-3",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "yoon-lee-project-image-3.jpg",
+      "alt": "Persona (2024) by Yoon Lee, Acrylics on a Punching Bag — image 1 of 4",
+      "width": 0.387
+    },
+    {
+      "type": "image",
+      "src": "yoon-lee-project-image-1.jpg",
+      "alt": "Persona (2024) by Yoon Lee, Acrylics on a Punching Bag — image 2 of 4",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "yoon-lee-project-image-2.jpg",
+      "alt": "Persona (2024) by Yoon Lee, Acrylics on a Punching Bag — image 3 of 4",
+      "width": 0.409
+    },
+    {
+      "type": "image",
+      "src": "yoon-lee-project-image-4.jpg",
+      "alt": "Persona (2024) by Yoon Lee, Acrylics on a Punching Bag — image 4 of 4",
+      "width": 0.387
+    }
+  ]
+}

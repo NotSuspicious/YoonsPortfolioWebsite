@@ -1,0 +1,102 @@
+---
+/**
+ * Exhibitions index — recreates Squarespace's portfolio "hover: cover" layout:
+ * a stacked list of titles; hovering (or focusing) a title fades + scales its cover image in full-bleed
+ * behind the list (900 ms "scale-up"). On touch-only devices the list becomes covers with titles.
+ */
+import Pic from './Pic.astro';
+import { media } from '@/lib/media';
+
+interface Props { items: { title: string; href: string; src: string; alt: string }[] }
+const { items } = Astro.props;
+---
+
+<section class="hover-index" data-hover-index>
+  <div class="hover-index__backgrounds" aria-hidden="true">
+    {items.map((item, i) => (
+      <div class="hover-index__bg" data-bg={i}>
+        <Pic src={media(item.src)} alt="" sizes="100vw" widths={[768, 1080, 1440, 1920, 2500]} quality={70} class="hover-index__img" />
+        <div class="hover-index__overlay"></div>
+      </div>
+    ))}
+  </div>
+
+  <ul class="hover-index__list" data-reveal-group="120">
+    {items.map((item, i) => (
+      <li data-reveal>
+        <a class="hover-index__item" href={item.href} data-item={i}>
+          <span class="hover-index__cover" aria-hidden="true">
+            <Pic src={media(item.src)} alt="" sizes="(max-width: 767px) 100vw, 50vw" widths={[480, 768, 1080, 1440]} class="hover-index__cover-img" />
+          </span>
+          <h2 class="hover-index__title">{item.title}</h2>
+        </a>
+      </li>
+    ))}
+  </ul>
+</section>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-hover-index]');
+  if (root && window.matchMedia('(hover: hover)').matches) {
+    const bgs = Array.from(root.querySelectorAll<HTMLElement>('[data-bg]'));
+    const items = Array.from(root.querySelectorAll<HTMLElement>('[data-item]'));
+    const activate = (i: number | null) => {
+      root.classList.toggle('is-active', i !== null);
+      bgs.forEach((bg, j) => bg.classList.toggle('is-active', j === i));
+      items.forEach((it, j) => it.classList.toggle('is-active', j === i));
+    };
+    items.forEach((it, i) => {
+      it.addEventListener('mouseenter', () => activate(i));
+      it.addEventListener('focus', () => activate(i));
+    });
+    root.querySelector('.hover-index__list')!.addEventListener('mouseleave', () => activate(null));
+    root.addEventListener('focusout', (e) => { if (!root.contains(e.relatedTarget as Node)) activate(null); });
+  }
+</script>
+
+<style>
+  /* The header floats over this section, so the cover images run full-bleed from the top of the page */
+  .hover-index {
+    position: relative;
+    min-height: 100svh;
+    padding: calc(var(--header-h) + var(--section-pad)) var(--gutter) var(--section-pad);
+    overflow: hidden;
+  }
+
+  .hover-index__backgrounds { position: absolute; inset: 0; z-index: 0; }
+  .hover-index__bg {
+    position: absolute; inset: 0;
+    opacity: 0;
+    transform: scale(1);
+    transition: opacity var(--hover-duration) var(--ease), transform var(--hover-duration) var(--ease);
+    will-change: opacity, transform;
+  }
+  .hover-index__bg.is-active { opacity: 1; transform: scale(1.06); }
+  .hover-index :global(.hover-index__img) { width: 100%; height: 100%; object-fit: cover; }
+  .hover-index__overlay { position: absolute; inset: 0; background: rgb(0 0 0 / 0.12); }
+
+  .hover-index__list {
+    position: relative; z-index: 1;
+    list-style: none; margin: 0; padding: 0;
+    display: flex; flex-direction: column; align-items: center;
+  }
+  .hover-index__item { display: block; text-align: center; padding: 20px 0; }
+  .hover-index__title {
+    margin: 0;
+    font-size: var(--fs-h1);
+    line-height: var(--lh-heading);
+    transition: opacity 0.4s var(--ease);
+  }
+  .hover-index__cover { display: none; }
+
+  /* Touch devices: no hover — show each exhibition as its cover with the title below */
+  @media (hover: none) {
+    .hover-index__backgrounds { display: none; }
+    .hover-index { min-height: 0; padding-top: calc(var(--header-h) + var(--section-pad)); }
+    .hover-index__list { gap: 8vw; }
+    .hover-index__item { width: min(100%, 720px); padding: 0; }
+    .hover-index__cover { display: block; aspect-ratio: 3 / 2; overflow: hidden; margin-bottom: 0.6em; }
+    .hover-index :global(.hover-index__cover-img) { width: 100%; height: 100%; object-fit: cover; }
+    .hover-index__title { font-size: var(--fs-h3); }
+  }
+</style>

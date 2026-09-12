@@ -1,0 +1,37 @@
+{
+  "title": "My Dad",
+  "year": "2023",
+  "details": [
+    "Photos"
+  ],
+  "order": 909,
+  "listed": false,
+  "cover": "mg-7506-2.jpg",
+  "sqsPath": "/new-page-71-1-2",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "mg-7506-2.jpg",
+      "alt": "My Dad (2023) by Yoon Lee, Photos — image 1 of 4",
+      "width": 0.363
+    },
+    {
+      "type": "image",
+      "src": "mg-7555.jpg",
+      "alt": "My Dad (2023) by Yoon Lee, Photos — image 2 of 4",
+      "width": 0.363
+    },
+    {
+      "type": "image",
+      "src": "mg-7493-2.jpg",
+      "alt": "My Dad (2023) by Yoon Lee, Photos — image 3 of 4",
+      "width": 0.344
+    },
+    {
+      "type": "image",
+      "src": "mg-7592.jpg",
+      "alt": "My Dad (2023) by Yoon Lee, Photos — image 4 of 4",
+      "width": 0.363
+    }
+  ]
+}

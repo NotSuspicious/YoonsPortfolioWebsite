@@ -1,0 +1,44 @@
+{
+  "title": "Cloud[ies]",
+  "year": "2025",
+  "details": [
+    "Ceramic",
+    "3 x 1.5 x 6 in"
+  ],
+  "order": 917,
+  "listed": false,
+  "cover": "figurre.jpg",
+  "sqsPath": "/new-page-71-5-3-1",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "figurre.jpg",
+      "alt": "Cloud[ies] (2025) by Yoon Lee, Ceramic — image 1 of 5",
+      "width": 0.781
+    },
+    {
+      "type": "image",
+      "src": "my-figures.png",
+      "alt": "Cloud[ies] (2025) by Yoon Lee, Ceramic — image 2 of 5",
+      "width": 0.623
+    },
+    {
+      "type": "image",
+      "src": "figure1.jpg",
+      "alt": "Cloud[ies] (2025) by Yoon Lee, Ceramic — image 3 of 5",
+      "width": 0.373
+    },
+    {
+      "type": "image",
+      "src": "figure2.jpg",
+      "alt": "Cloud[ies] (2025) by Yoon Lee, Ceramic — image 4 of 5",
+      "width": 0.406
+    },
+    {
+      "type": "image",
+      "src": "figure3.jpg",
+      "alt": "Cloud[ies] (2025) by Yoon Lee, Ceramic — image 5 of 5",
+      "width": 0.394
+    }
+  ]
+}

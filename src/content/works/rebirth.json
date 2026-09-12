@@ -1,0 +1,42 @@
+{
+  "title": "Rebirth",
+  "year": "2023",
+  "details": [
+    "18 x 15 x 5 inches",
+    "Buttons, clay, resin, and acrylic paint on wood board"
+  ],
+  "order": 915,
+  "listed": false,
+  "cover": "clay-chicken-black-background.png",
+  "sqsPath": "/new-page-71-5-2",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "clay-chicken-black-background.png",
+      "alt": "Rebirth (2023) by Yoon Lee, 18 x 15 x 5 inches — image 1 of 3",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "rebirth-yoonseo-lee.jpg",
+      "alt": "Rebirth (2023) by Yoon Lee, 18 x 15 x 5 inches — image 2 of 3",
+      "width": 0.501
+    },
+    {
+      "type": "image",
+      "src": "clay-chicken-with-net.jpg",
+      "alt": "Rebirth (2023) by Yoon Lee, 18 x 15 x 5 inches — image 3 of 3",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

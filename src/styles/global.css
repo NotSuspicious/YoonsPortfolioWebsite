@@ -1,0 +1,144 @@
+/* ------------------------------------------------------------------------------------------
+   Design tokens — values measured from the original Squarespace 7.1 site (yoonslee.com)
+   ------------------------------------------------------------------------------------------ */
+:root {
+  color-scheme: light;
+
+  --bg: #fff3e6;            /* hsl(31.2 100% 95.1%) */
+  --fg: #000;
+  --accent: #9a7b66;        /* hsl(24.2 20.5% 50.2%) — link colour */
+  --overlay: rgb(0 0 0 / 0.15);
+
+  --font: 'Baskervville', 'Baskerville', 'Libre Baskerville', 'Times New Roman', serif;
+
+  /* Squarespace 7.1 fluid type: size = (value − 1) × 1.2vw + 1rem  (vmax on phones) */
+  --tu: 1.2vw;
+  --fs-h1: calc(2.8 * var(--tu) + 1rem);   /* 3.8 */
+  --fs-h2: calc(1.5 * var(--tu) + 1rem);   /* 2.5 */
+  --fs-h3: calc(1.0 * var(--tu) + 1rem);   /* 2   */
+  --fs-h4: calc(0.5 * var(--tu) + 1rem);   /* 1.5 */
+  --fs-body: calc(0.1 * var(--tu) + 1rem); /* 1.1 */
+  --fs-title: calc(1.0 * var(--tu) + 1rem);/* site title 2 */
+  --fs-nav: 1rem;
+  --lh-heading: 1.5;
+  --lh-body: 1.7;
+
+  --gutter: 3vw;
+  --section-pad: 3.3vw;
+  --max-w: 2000px;
+  --stack-gap: clamp(28px, 3.75vw, 56px);
+  /* Height of the site header (padding + title line + nav line) — used by pages whose header floats over content */
+  --header-h: calc(2 * var(--gutter) + var(--lh-heading) * var(--fs-title) + 1vw + var(--lh-body) * var(--fs-nav));
+
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --reveal-duration: 0.8s;
+  --hover-duration: 0.9s;   /* portfolio hover-cover: "slow" */
+}
+
+@media (max-width: 767px) {
+  :root {
+    --tu: 1.2vmax;
+    --gutter: 6vw;
+    --section-pad: 6vw;
+    --stack-gap: 24px;
+    --header-h: calc(2 * var(--gutter) + var(--lh-heading) * var(--fs-title));
+  }
+}
+
+/* ------------------------------------------------------------------------------------------
+   Base
+   ------------------------------------------------------------------------------------------ */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  overflow-x: clip;
+}
+
+body.menu-open { overflow: hidden; }
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+  line-height: var(--lh-heading);
+  margin: 0 0 0.5em;
+  text-wrap: balance;
+}
+h1 { font-size: var(--fs-h1); }
+h2 { font-size: var(--fs-h2); }
+h3 { font-size: var(--fs-h3); }
+h4 { font-size: var(--fs-h4); }
+
+p { margin: 0 0 1em; }
+p:last-child { margin-bottom: 0; }
+
+a { color: inherit; text-decoration: none; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+img, picture, video { display: block; max-width: 100%; height: auto; }
+figure { margin: 0; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+
+.visually-hidden {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* Rich text coming from the content files */
+.prose a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.prose a:hover { color: var(--fg); }
+.prose h2 { margin: 2em 0 1em; }
+.prose h2:first-child { margin-top: 0; }
+.prose .ta-center { text-align: center; }
+.prose .ta-right { text-align: right; }
+.prose strong { font-weight: 700; }
+
+/* ------------------------------------------------------------------------------------------
+   Layout
+   ------------------------------------------------------------------------------------------ */
+.container {
+  width: min(var(--max-w), 100% - 2 * var(--gutter));
+  margin-inline: auto;
+}
+
+.section { padding: var(--section-pad) 0; }
+.section--flush { padding: 0; }
+
+/* Short heading strip above the thumbnail grids ("INSTALLATION / CERAMIC / SCULPTURE") */
+.section-heading {
+  display: grid;
+  place-items: center;
+  min-height: 20vh;
+  padding: var(--section-pad) var(--gutter);
+  text-align: center;
+}
+.section-heading p { margin: 0; }
+
+/* ------------------------------------------------------------------------------------------
+   Scroll-reveal (site-wide "fade" animation, "detailed" complexity)
+   ------------------------------------------------------------------------------------------ */
+html.js [data-reveal] {
+  opacity: 0;
+  transition: opacity var(--reveal-duration) var(--ease);
+}
+html.js [data-reveal].is-visible { opacity: 1; }
+
+/* Skip the intro fade when the user prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html.js [data-reveal] { opacity: 1; transition: none; }
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

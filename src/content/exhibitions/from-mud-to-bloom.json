@@ -1,0 +1,383 @@
+{
+  "title": "From Mud to Bloom",
+  "year": "2025",
+  "order": 1,
+  "cover": {
+    "src": "dsc-9930-bd5ed4.jpg",
+    "alt": "From Mud to Bloom (2025), Yoon Lee — installation view"
+  },
+  "statementHtml": "<p><em>From Mud to Bloom</em> explores the theme of maternal connection between mother and child, using traditional Korean painting (Minhwa), acrylic paintings, and ceramic sculptures. The exhibition weaves images of nature with scenes from both historical and contemporary life, exploring how the human experience of caring and protection is mirrored in nature's own cycles.</p><p>The lotus flower, born from the mud, is a central motif of this work, embodying sacrifice, resilience, and purity. In Korean folk stories, the female figure often sacrifices herself for the benefit of the family and is reborn through the lotus, a transformation that reflects both suffering and renewal.</p><p>This classic fairy tale of female self-effacement bridges cultural memory with present realities, inviting viewers to reflect on how feminine love can endure, transform, and bloom across generations. </p><p>The exhibition has also been covered by the <a href=\"https://dailytrojan.com/2025/12/02/from-mud-to-bloom-explores-feminine-sacrifice-through-korean-culture/\" rel=\"noopener\" target=\"_blank\">Daily Trojan</a>, where you can find interviews on behind the process.</p>",
+  "installationGrid": {
+    "aspect": "widescreen",
+    "gutter": 50,
+    "columns": 1
+  },
+  "installationViews": [
+    {
+      "src": "dsc-9930-510617.jpg",
+      "alt": "From Mud to Bloom (2025), Yoon Lee — installation view 1 of 6"
+    },
+    {
+      "src": "dsc-9951.jpg",
+      "alt": "From Mud to Bloom (2025), Yoon Lee — installation view 2 of 6"
+    },
+    {
+      "src": "dsc-9924.jpg",
+      "alt": "From Mud to Bloom (2025), Yoon Lee — installation view 3 of 6"
+    },
+    {
+      "src": "dsc-9939.jpg",
+      "alt": "From Mud to Bloom (2025), Yoon Lee — installation view 4 of 6"
+    },
+    {
+      "src": "dsc-9841.jpg",
+      "alt": "From Mud to Bloom (2025), Yoon Lee — installation view 5 of 6"
+    },
+    {
+      "src": "dsc-9867.jpg",
+      "alt": "From Mud to Bloom (2025), Yoon Lee — installation view 6 of 6"
+    }
+  ],
+  "artworks": [
+    {
+      "caption": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in",
+      "transition": "fade",
+      "slides": [
+        {
+          "src": "what-is-left-behind-0374.jpg",
+          "alt": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in — view 1 of 9",
+          "caption": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in"
+        },
+        {
+          "src": "what-is-left-behind-0430.jpg",
+          "alt": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in — view 2 of 9",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-8-8526e7.jpg",
+          "alt": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in — view 3 of 9",
+          "caption": null
+        },
+        {
+          "src": "what-is-left-behind-0433.jpg",
+          "alt": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in — view 4 of 9",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-9-ffd2cb.jpg",
+          "alt": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in — view 5 of 9",
+          "caption": null
+        },
+        {
+          "src": "what-is-left-behind-0381.jpg",
+          "alt": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in — view 6 of 9",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-83e036.jpg",
+          "alt": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in — view 7 of 9",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-2-963f5b.jpg",
+          "alt": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in — view 8 of 9",
+          "caption": null
+        },
+        {
+          "src": "what-is-left-behind-0389.jpg",
+          "alt": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in — view 9 of 9",
+          "caption": null
+        }
+      ]
+    },
+    {
+      "caption": "Last Bloom, 2025, Korean Pigment on Korean, Mulberry Paper, 24 x 20 in",
+      "transition": "fade",
+      "slides": [
+        {
+          "src": "carring-blossom-2-a67906.jpg",
+          "alt": "Last Bloom, 2025, Korean Pigment on Korean, Mulberry Paper, 24 x 20 in — view 1 of 6",
+          "caption": "Last Bloom, 2025, Korean Pigment on Korean, Mulberry Paper, 24 x 20 in"
+        },
+        {
+          "src": "carring-blossom-f150c7.jpg",
+          "alt": "Last Bloom, 2025, Korean Pigment on Korean, Mulberry Paper, 24 x 20 in — view 2 of 6",
+          "caption": null
+        },
+        {
+          "src": "last-b-0438.jpg",
+          "alt": "Last Bloom, 2025, Korean Pigment on Korean, Mulberry Paper, 24 x 20 in — view 3 of 6",
+          "caption": null
+        },
+        {
+          "src": "last-b-0437.jpg",
+          "alt": "Last Bloom, 2025, Korean Pigment on Korean, Mulberry Paper, 24 x 20 in — view 4 of 6",
+          "caption": null
+        },
+        {
+          "src": "last-b-0436.jpg",
+          "alt": "Last Bloom, 2025, Korean Pigment on Korean, Mulberry Paper, 24 x 20 in — view 5 of 6",
+          "caption": null
+        },
+        {
+          "src": "last-b-0439.jpg",
+          "alt": "Last Bloom, 2025, Korean Pigment on Korean, Mulberry Paper, 24 x 20 in — view 6 of 6",
+          "caption": null
+        }
+      ]
+    },
+    {
+      "caption": "Untitled, 2025, Acrylic on Wood Panel, 24 x 18 in",
+      "transition": "fade",
+      "slides": [
+        {
+          "src": "carring-blossom-5-copy.jpg",
+          "alt": "Untitled, 2025, Acrylic on Wood Panel, 24 x 18 in — view 1 of 6",
+          "caption": "Untitled, 2025, Acrylic on Wood Panel, 24 x 18 in"
+        },
+        {
+          "src": "carring-blossom-6-copy.jpg",
+          "alt": "Untitled, 2025, Acrylic on Wood Panel, 24 x 18 in — view 2 of 6",
+          "caption": null
+        },
+        {
+          "src": "seed-0454.jpg",
+          "alt": "Untitled, 2025, Acrylic on Wood Panel, 24 x 18 in — view 3 of 6",
+          "caption": null
+        },
+        {
+          "src": "seed-0449.jpg",
+          "alt": "Untitled, 2025, Acrylic on Wood Panel, 24 x 18 in — view 4 of 6",
+          "caption": null
+        },
+        {
+          "src": "seed-0450.jpg",
+          "alt": "Untitled, 2025, Acrylic on Wood Panel, 24 x 18 in — view 5 of 6",
+          "caption": null
+        },
+        {
+          "src": "seed-0604.jpg",
+          "alt": "Untitled, 2025, Acrylic on Wood Panel, 24 x 18 in — view 6 of 6",
+          "caption": null
+        }
+      ]
+    },
+    {
+      "caption": "Did I Jump, or Was I Pushed to be a Filial Daughter?, 2025, Korean Pigment on Korean Mulberry Paper, 15 x 58 in each",
+      "transition": "fade",
+      "slides": [
+        {
+          "src": "jokja-9956.jpg",
+          "alt": "Did I Jump, or Was I Pushed to be a Filial Daughter?, 2025, Korean Pigment on Korean Mulberry Paper, 15 x 58 in each — view 1 of 7",
+          "caption": "Did I Jump, or Was I Pushed to be a Filial Daughter?, 2025, Korean Pigment on Korean Mulberry Paper, 15 x 58 in each"
+        },
+        {
+          "src": "carring-blossom-3-4af8e6.jpg",
+          "alt": "Did I Jump, or Was I Pushed to be a Filial Daughter?, 2025, Korean Pigment on Korean Mulberry Paper, 15 x 58 in each — view 2 of 7",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-5-a4e480.jpg",
+          "alt": "Did I Jump, or Was I Pushed to be a Filial Daughter?, 2025, Korean Pigment on Korean Mulberry Paper, 15 x 58 in each — view 3 of 7",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-4-18eeca.jpg",
+          "alt": "Did I Jump, or Was I Pushed to be a Filial Daughter?, 2025, Korean Pigment on Korean Mulberry Paper, 15 x 58 in each — view 4 of 7",
+          "caption": null
+        },
+        {
+          "src": "jokja-9915.jpg",
+          "alt": "Did I Jump, or Was I Pushed to be a Filial Daughter?, 2025, Korean Pigment on Korean Mulberry Paper, 15 x 58 in each — view 5 of 7",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-2-3830ff.jpg",
+          "alt": "Did I Jump, or Was I Pushed to be a Filial Daughter?, 2025, Korean Pigment on Korean Mulberry Paper, 15 x 58 in each — view 6 of 7",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-7-06a846.jpg",
+          "alt": "Did I Jump, or Was I Pushed to be a Filial Daughter?, 2025, Korean Pigment on Korean Mulberry Paper, 15 x 58 in each — view 7 of 7",
+          "caption": null
+        }
+      ]
+    },
+    {
+      "caption": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in",
+      "transition": "fade",
+      "slides": [
+        {
+          "src": "dsc-9822-4303af.jpg",
+          "alt": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in — view 1 of 8",
+          "caption": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in"
+        },
+        {
+          "src": "dsc-9839.jpg",
+          "alt": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in — view 2 of 8",
+          "caption": null
+        },
+        {
+          "src": "dsc-9824.jpg",
+          "alt": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in — view 3 of 8",
+          "caption": null
+        },
+        {
+          "src": "what-is-left-behind-0484.jpg",
+          "alt": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in — view 4 of 8",
+          "caption": null
+        },
+        {
+          "src": "jokja-0478.jpg",
+          "alt": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in — view 5 of 8",
+          "caption": null
+        },
+        {
+          "src": "jokja-0468.jpg",
+          "alt": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in — view 6 of 8",
+          "caption": null
+        },
+        {
+          "src": "jokja-0624.jpg",
+          "alt": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in — view 7 of 8",
+          "caption": null
+        },
+        {
+          "src": "jokja-9797.jpg",
+          "alt": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in — view 8 of 8",
+          "caption": null
+        }
+      ]
+    },
+    {
+      "caption": "Untitled, 2025, Acrylics and Color Pencils on Linen, 30 x 40 in",
+      "transition": "fade",
+      "slides": [
+        {
+          "src": "carring-blossom-7-4e4ab9.jpg",
+          "alt": "Untitled, 2025, Acrylics and Color Pencils on Linen, 30 x 40 in — view 1 of 3",
+          "caption": "Untitled, 2025, Acrylics and Color Pencils on Linen, 30 x 40 in"
+        },
+        {
+          "src": "carring-blossom-9-f3ce21.jpg",
+          "alt": "Untitled, 2025, Acrylics and Color Pencils on Linen, 30 x 40 in — view 2 of 3",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-8-be4de1.jpg",
+          "alt": "Untitled, 2025, Acrylics and Color Pencils on Linen, 30 x 40 in — view 3 of 3",
+          "caption": null
+        }
+      ]
+    },
+    {
+      "caption": "Untitled 2025 Acrylics, Charcoal, and Color Pencils on Linen 30 x 40 in",
+      "transition": "fade",
+      "slides": [
+        {
+          "src": "carring-blossom-10.jpg",
+          "alt": "Untitled 2025 Acrylics, Charcoal, and Color Pencils on Linen 30 x 40 in — view 1 of 7",
+          "caption": "Untitled 2025 Acrylics, Charcoal, and Color Pencils on Linen 30 x 40 in"
+        },
+        {
+          "src": "carring-blossom-11-43bf40.jpg",
+          "alt": "Untitled 2025 Acrylics, Charcoal, and Color Pencils on Linen 30 x 40 in — view 2 of 7",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-12.jpg",
+          "alt": "Untitled 2025 Acrylics, Charcoal, and Color Pencils on Linen 30 x 40 in — view 3 of 7",
+          "caption": null
+        },
+        {
+          "src": "seed-0500.jpg",
+          "alt": "Untitled 2025 Acrylics, Charcoal, and Color Pencils on Linen 30 x 40 in — view 4 of 7",
+          "caption": null
+        },
+        {
+          "src": "seed-0501.jpg",
+          "alt": "Untitled 2025 Acrylics, Charcoal, and Color Pencils on Linen 30 x 40 in — view 5 of 7",
+          "caption": null
+        },
+        {
+          "src": "seed-0503.jpg",
+          "alt": "Untitled 2025 Acrylics, Charcoal, and Color Pencils on Linen 30 x 40 in — view 6 of 7",
+          "caption": null
+        },
+        {
+          "src": "seed-0504.jpg",
+          "alt": "Untitled 2025 Acrylics, Charcoal, and Color Pencils on Linen 30 x 40 in — view 7 of 7",
+          "caption": null
+        }
+      ]
+    },
+    {
+      "caption": "Blue Tears, 2025, Oil on Wood, 16 x 20 in",
+      "transition": "fade",
+      "slides": [
+        {
+          "src": "carring-blossom-7d3b8e.jpg",
+          "alt": "Blue Tears, 2025, Oil on Wood, 16 x 20 in — view 1 of 6",
+          "caption": "Blue Tears, 2025, Oil on Wood, 16 x 20 in"
+        },
+        {
+          "src": "carring-blossom-2-bdf55d.jpg",
+          "alt": "Blue Tears, 2025, Oil on Wood, 16 x 20 in — view 2 of 6",
+          "caption": null
+        },
+        {
+          "src": "ndm-0420.jpg",
+          "alt": "Blue Tears, 2025, Oil on Wood, 16 x 20 in — view 3 of 6",
+          "caption": null
+        },
+        {
+          "src": "ndm-0418.jpg",
+          "alt": "Blue Tears, 2025, Oil on Wood, 16 x 20 in — view 4 of 6",
+          "caption": null
+        },
+        {
+          "src": "ndm-0422.jpg",
+          "alt": "Blue Tears, 2025, Oil on Wood, 16 x 20 in — view 5 of 6",
+          "caption": null
+        },
+        {
+          "src": "ndm-9890.jpg",
+          "alt": "Blue Tears, 2025, Oil on Wood, 16 x 20 in — view 6 of 6",
+          "caption": null
+        }
+      ]
+    },
+    {
+      "caption": "Karma, 2025, Ceramic, 24 x 16 x 53 in",
+      "transition": "fade",
+      "slides": [
+        {
+          "src": "carring-blossom-11-82acac.jpg",
+          "alt": "Karma, 2025, Ceramic, 24 x 16 x 53 in — view 1 of 5",
+          "caption": "Karma, 2025, Ceramic, 24 x 16 x 53 in"
+        },
+        {
+          "src": "carring-blossom-3-76ebb6.jpg",
+          "alt": "Karma, 2025, Ceramic, 24 x 16 x 53 in — view 2 of 5",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-copy.jpg",
+          "alt": "Karma, 2025, Ceramic, 24 x 16 x 53 in — view 3 of 5",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-3-870179.jpg",
+          "alt": "Karma, 2025, Ceramic, 24 x 16 x 53 in — view 4 of 5",
+          "caption": null
+        },
+        {
+          "src": "carring-blossom-13-f4698d.jpg",
+          "alt": "Karma, 2025, Ceramic, 24 x 16 x 53 in — view 5 of 5",
+          "caption": null
+        }
+      ]
+    }
+  ],
+  "sqsPath": "/portfolio-3/project-one-h346n-mnen4-mbttp"
+}

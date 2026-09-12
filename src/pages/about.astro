@@ -1,0 +1,67 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Pic from '@/components/Pic.astro';
+import about from '@/data/about.json';
+import site from '@/data/site.json';
+import { media } from '@/lib/media';
+
+const description = about.bioHtml.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 300).replace(/\s\S*$/, '') + '…';
+const portrait = media(about.portrait.src);
+const jsonLd = [{ '@type': 'AboutPage', name: `About ${site.name}`, url: `${site.url}/about/`, mainEntity: { '@type': 'Person', name: site.name, url: site.url } }];
+---
+
+<BaseLayout title="About" description={description} ogImage={portrait} ogAlt={about.portrait.alt} jsonLd={jsonLd}>
+  <article class="about container">
+    <h1 class="visually-hidden">About Yoon Lee</h1>
+
+    <section class="about__intro section" data-reveal-group="150">
+      <figure class="about__portrait" data-reveal>
+        <Pic src={portrait} alt={about.portrait.alt} sizes="(max-width: 767px) 75vw, 33vw" widths={[480, 640, 768, 960, 1280]} priority />
+      </figure>
+      <div class="about__bio prose" data-reveal set:html={about.bioHtml} />
+    </section>
+
+    <section class="about__cv section" aria-label="Curriculum vitae">
+      {about.cv.map((row) => (
+        <div class="about__row" data-reveal-group="150">
+          <div class="about__text prose" data-reveal set:html={row.html} />
+          <figure class="about__photo" data-reveal>
+            <Pic src={media(row.photo.src)} alt={row.photo.alt} sizes="(max-width: 767px) 100vw, 28vw" widths={[480, 640, 768, 960, 1280]} />
+          </figure>
+        </div>
+      ))}
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .about__intro {
+    display: grid;
+    justify-items: center;
+    gap: clamp(32px, 4vw, 64px);
+    padding-top: var(--section-pad);
+  }
+  .about__portrait { width: min(100%, 33.3%); }
+  .about__bio { width: min(100%, 50%); }
+
+  .about__cv { display: grid; gap: clamp(40px, 5vw, 96px); padding-block: clamp(24px, 3vw, 48px) var(--section-pad); }
+  .about__row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 28%;
+    gap: clamp(24px, 4vw, 72px);
+    align-items: start;
+    padding-inline: 8%;
+  }
+  .about__row:nth-child(2) .about__photo { margin-top: 12%; }
+  .about__text :global(h2) { font-size: var(--fs-h2); }
+  .about__text :global(p) { margin-bottom: 0.8em; }
+  .about__text :global(strong) { display: inline-block; margin-top: 0.4em; }
+
+  @media (max-width: 767px) {
+    .about__portrait { width: 75%; }
+    .about__bio { width: 100%; }
+    .about__row { grid-template-columns: 1fr; padding-inline: 0; }
+    .about__row .about__photo { order: -1; margin: 0; }
+    .about__row:nth-child(2) .about__photo { margin-top: 0; }
+  }
+</style>

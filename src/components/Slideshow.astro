@@ -1,0 +1,117 @@
+---
+/**
+ * Artwork slideshow (one per artwork on exhibition pages). Fixed height (75vh), images contain-fitted,
+ * side arrows, fade transition, no autoplay — like the original Squarespace gallery section.
+ * Works without JavaScript: all slides render, and CSS shows only the first until the script takes over.
+ */
+import Pic from './Pic.astro';
+import { media } from '@/lib/media';
+
+interface Props {
+  slides: { src: string; alt: string; caption?: string | null }[];
+  /** Accessible name for the region, e.g. the artwork caption. */
+  label: string;
+  transition?: 'fade' | 'slide';
+  height?: number; // vh
+}
+const { slides, label, transition = 'fade', height = 75 } = Astro.props;
+// Deterministic id (stable HTML between builds): derived from the label + first slide
+const uid = 'ss-' + `${label}-${slides[0]?.src ?? ''}`.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60);
+---
+
+<section class="slideshow" data-slideshow data-transition={transition} style={`--h:${height}vh`} aria-roledescription="carousel" aria-label={label}>
+  <div class="slideshow__track">
+    {slides.map((s, i) => (
+      <figure class:list={['slideshow__slide', { 'is-active': i === 0 }]} aria-roledescription="slide" aria-label={`${i + 1} of ${slides.length}`} aria-hidden={i === 0 ? undefined : 'true'}>
+        <Pic src={media(s.src)} alt={s.alt} sizes={`min(94vw, ${height * 1.5}vh)`} widths={[480, 768, 1080, 1440, 2000]} class="slideshow__img" />
+        {s.caption && <figcaption class="slideshow__caption">{s.caption}</figcaption>}
+      </figure>
+    ))}
+  </div>
+  {slides.length > 1 && (
+    <>
+      <button class="slideshow__btn slideshow__btn--prev" type="button" data-prev aria-label="Previous slide" aria-controls={uid}>
+        <svg viewBox="0 0 9 16" aria-hidden="true"><polyline fill="none" stroke="currentColor" stroke-miterlimit="10" points="7.3,14.7 2.5,8 7.3,1.2" /></svg>
+      </button>
+      <button class="slideshow__btn slideshow__btn--next" type="button" data-next aria-label="Next slide" aria-controls={uid}>
+        <svg viewBox="0 0 9 16" aria-hidden="true"><polyline fill="none" stroke="currentColor" stroke-miterlimit="10" points="1.6,1.2 6.5,7.9 1.6,14.7" /></svg>
+      </button>
+      <p class="slideshow__status visually-hidden" aria-live="polite" id={uid}>Slide 1 of {slides.length}</p>
+    </>
+  )}
+</section>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-slideshow]').forEach((root) => {
+    const slides = Array.from(root.querySelectorAll<HTMLElement>('.slideshow__slide'));
+    const status = root.querySelector<HTMLElement>('.slideshow__status');
+    if (slides.length < 2) return;
+    let index = 0;
+    const go = (i: number) => {
+      index = (i + slides.length) % slides.length;
+      slides.forEach((s, j) => {
+        const active = j === index;
+        s.classList.toggle('is-active', active);
+        if (active) s.removeAttribute('aria-hidden'); else s.setAttribute('aria-hidden', 'true');
+      });
+      if (status) status.textContent = `Slide ${index + 1} of ${slides.length}`;
+    };
+    root.querySelector('[data-prev]')?.addEventListener('click', () => go(index - 1));
+    root.querySelector('[data-next]')?.addEventListener('click', () => go(index + 1));
+    root.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') { e.preventDefault(); go(index - 1); }
+      if (e.key === 'ArrowRight') { e.preventDefault(); go(index + 1); }
+    });
+    let x0 = 0;
+    root.addEventListener('touchstart', (e) => { x0 = e.touches[0].clientX; }, { passive: true });
+    root.addEventListener('touchend', (e) => {
+      const dx = e.changedTouches[0].clientX - x0;
+      if (Math.abs(dx) > 40) go(index + (dx < 0 ? 1 : -1));
+    });
+  });
+</script>
+
+<style>
+  .slideshow {
+    position: relative;
+    height: var(--h);
+    max-height: 1200px;
+    width: 100%;
+  }
+  .slideshow__track { position: relative; width: 100%; height: 100%; overflow: hidden; }
+  .slideshow__slide {
+    position: absolute; inset: 0;
+    display: grid; grid-template-rows: 1fr auto;
+    opacity: 0;
+    transition: opacity 0.6s var(--ease);
+    pointer-events: none;
+  }
+  .slideshow__slide.is-active { opacity: 1; pointer-events: auto; z-index: 1; }
+  [data-transition='slide'] .slideshow__slide { transition: opacity 0.5s var(--ease), transform 0.5s var(--ease); transform: translateX(3%); }
+  [data-transition='slide'] .slideshow__slide.is-active { transform: none; }
+  .slideshow :global(.slideshow__img) {
+    width: 100%; height: 100%;
+    min-height: 0;
+    object-fit: contain;
+  }
+  .slideshow__caption {
+    text-align: center;
+    padding: 0.6em clamp(48px, 8vw, 96px) 0;
+  }
+
+  .slideshow__btn {
+    position: absolute; top: 50%; transform: translateY(-50%); z-index: 2;
+    width: 56px; height: 72px; padding: 24px 20px;
+    transition: opacity 0.25s var(--ease);
+  }
+  .slideshow__btn svg { width: 100%; height: 100%; }
+  .slideshow__btn:hover { opacity: 0.5; }
+  .slideshow__btn--prev { left: 0; }
+  .slideshow__btn--next { right: 0; }
+
+  @media (max-width: 767px) {
+    .slideshow { height: min(var(--h), 70vw + 4em); }
+    .slideshow__btn { width: 44px; height: 60px; padding: 18px 14px; }
+    .slideshow__caption { padding-inline: 44px; font-size: 0.95em; }
+  }
+</style>

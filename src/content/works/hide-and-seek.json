@@ -1,0 +1,68 @@
+{
+  "title": "Hide and Seek",
+  "year": "2023",
+  "details": [
+    "Photos"
+  ],
+  "order": 900,
+  "listed": false,
+  "cover": "mg-7337.jpg",
+  "sqsPath": "/new-page-71",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "mg-7337.jpg",
+      "alt": "Hide and Seek (2023) by Yoon Lee, Photos — image 1 of 5",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "mg-7149.jpg",
+      "alt": "Hide and Seek (2023) by Yoon Lee, Photos — image 2 of 5",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "mg-7307.jpg",
+      "alt": "Hide and Seek (2023) by Yoon Lee, Photos — image 3 of 5",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "mg-7180.jpg",
+      "alt": "Hide and Seek (2023) by Yoon Lee, Photos — image 4 of 5",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "mg-7248.jpg",
+      "alt": "Hide and Seek (2023) by Yoon Lee, Photos — image 5 of 5",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

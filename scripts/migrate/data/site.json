@@ -1,0 +1,6860 @@
+[
+  {
+    "path": "/",
+    "title": "Yoon Lee",
+    "fullTitle": "Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "collection",
+        "collectionType": "portfolio-hover-static",
+        "background": {
+          "assetId": "a6af712b-763f-4d72-bacf-3216e104eb53",
+          "alt": "",
+          "focal": "0.5796812749003984,0.6240390024376523"
+        },
+        "overlayOpacity": 0.15,
+        "sectionHeight": "section-height--medium",
+        "hover": {
+          "controller": "PortfolioHover",
+          "variant-hover-static": "",
+          "first-section-padding-override": "",
+          "animation-role": "section"
+        },
+        "items": [],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/about",
+    "title": "About",
+    "fullTitle": "About — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 30,
+        "rowsMobile": 20,
+        "blocks": [
+          {
+            "type": "image",
+            "id": "ce1280b9d5a9a9783735",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 17,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 2,
+              "c1": 3,
+              "r2": 13,
+              "c2": 9
+            },
+            "z": 2,
+            "assetId": "0ef16257-dce2-499c-b436-e59be3316982",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "center",
+            "link": null,
+            "box": {
+              "cols": 8,
+              "rows": 16,
+              "w": 388.7,
+              "h": 578.9,
+              "ar": 0.6714,
+              "widthPct": 0.3073
+            }
+          },
+          {
+            "type": "text",
+            "id": "4b53d707379f52b24949",
+            "desktop": {
+              "r1": 18,
+              "c1": 8,
+              "r2": 31,
+              "c2": 20
+            },
+            "mobile": {
+              "r1": 14,
+              "c1": 2,
+              "r2": 20,
+              "c2": 10
+            },
+            "z": 4,
+            "html": "<p>Yoon Lee is a Korean-born, Los Angeles–based interdisciplinary artist working primarily in installation, combining painting and ceramics. Her practice explores feminine identity through maternal protection, instinct, and love, grounded in her cultural background as a Korean woman. Lee examines the history and ongoing discrimination women face in Korea, such as cultural preference for sons, the brutal history of Comfort Women during World War II, and stereotypical Korean folktale stories.</p><p>Drawing from both historical and contemporary imagery, Lee often uses motifs from nature—such as cocoons, nests, and animals known for maternal care—to reflect how protection and nurturing are mirrored in natural cycles. She incorporates traditional materials such as hanji, hanbok, and Korean pigments to bridge cultural memory with present realities.</p><p>Lee’s recent exhibitions include <em>From Mud to Bloom</em> (2025) at the Helen Lindhurst Fine Arts Gallery and <em>Chrysalis</em> (2024) at the Gayle and Ed Roski Gallery. She is the recipient of the Roski Macomber Travel Award and has received Best of Show from the Korean American Artists Association of Washington State.</p>"
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 80,
+        "rowsMobile": 40,
+        "blocks": [
+          {
+            "type": "image",
+            "id": "yui_3_17_2_1_1765175369531_129146",
+            "desktop": {
+              "r1": 4,
+              "c1": 19,
+              "r2": 17,
+              "c2": 26
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 7,
+              "c2": 10
+            },
+            "z": 8,
+            "assetId": "e15a7f4b-e70d-4fde-b978-f874072b927a",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "center",
+            "link": null,
+            "box": {
+              "cols": 7,
+              "rows": 13,
+              "w": 338.7,
+              "h": 468.3,
+              "ar": 0.7233,
+              "widthPct": 0.2678
+            }
+          },
+          {
+            "type": "image",
+            "id": "yui_3_17_2_1_1765175369531_148708",
+            "desktop": {
+              "r1": 46,
+              "c1": 19,
+              "r2": 57,
+              "c2": 25
+            },
+            "mobile": {
+              "r1": 7,
+              "c1": 2,
+              "r2": 13,
+              "c2": 10
+            },
+            "z": 9,
+            "assetId": "b63a2111-7b46-4a57-aec6-a6451496682f",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "center",
+            "link": null,
+            "box": {
+              "cols": 6,
+              "rows": 11,
+              "w": 288.8,
+              "h": 394.6,
+              "ar": 0.7318,
+              "widthPct": 0.2283
+            }
+          },
+          {
+            "type": "text",
+            "id": "e81aacbf547edd87bfbf",
+            "desktop": {
+              "r1": 1,
+              "c1": 5,
+              "r2": 81,
+              "c2": 23
+            },
+            "mobile": {
+              "r1": 15,
+              "c1": 2,
+              "r2": 39,
+              "c2": 10
+            },
+            "z": 0,
+            "html": "<h2 class=\"indent\">Solo Exhibitions</h2><p class=\"indent\"><strong>2025</strong></p><p class=\"indent\">From Mud to Bloom @ USC Roski Lindhurst Gallery // Los Angeles, CA</p><p class=\"indent\"><strong>2024</strong></p><p class=\"indent\">Chrysalis @ USC Roski IFT Gallery // Los Angeles, CA</p><h2 class=\"indent\">Select Group Exhibitions</h2><p class=\"indent\"><strong>2026</strong></p><p class=\"indent\"><em>Patch</em> @ The Green Gallery // Buena Park, CA</p><p class=\"indent\"><em>AXA Art Prize US 2026 Exhibition</em> @ New York Academy of Art // New York, NY</p><p class=\"indent\"><em>Woven Together</em> @ EK Art Gallery // Los Angeles, CA</p><p class=\"indent\"><em>Point of View</em> @ LANCH Gallery, The Korean Cultural Center // Los Angeles, CA</p><p class=\"indent\"><em>L*** During Wartime</em> @ Gayle and Ed Roski Gallery // Los Angeles, CA</p><p class=\"indent\"><strong>2025</strong></p><p class=\"indent\">USC Group Exhibition Hydroware // Los Angeles, CA</p><p class=\"indent\"><strong>2024</strong></p><p class=\"indent\">Annual Student Exhibition @ USC Fisher Museum // Los Angeles, CA</p><p class=\"indent\">8th Annual Scholarship Exhibition @ Palos Verdes Art Center // Rancho Palos Verdes, CA</p><p class=\"indent\">Bridge of Asia Showcase @ USC Tommy’s Place // Los Angeles, CA</p><p class=\"indent\"><strong>2023</strong></p><p class=\"indent\">Annual Student Exhibition @ USC Fisher Museum // Los Angeles, CA</p><p class=\"indent\">Spring Student Showcase @ Saddleback College // Mission Viejo, CA</p><p class=\"indent\">“Korean Wave” @ Korean American Artists Association // WA</p><p class=\"indent\"><strong>2022</strong></p><p class=\"indent\">Spring Student Showcase @ Saddleback College // Mission Viejo, CA</p><h2 class=\"indent\">Honors &amp; Awards</h2><p class=\"indent\"><strong>2026</strong></p><p class=\"indent\">Homiens Art Prize Finalist, <a href=\"https://homiens.com/winter-2026/\" rel=\"noopener\" target=\"_blank\">Homiens</a></p><p class=\"indent\">AXA Art Prize Finalist, <a href=\"https://axaxl.com/axa-art-prize/finalists\" rel=\"noopener\" target=\"_blank\">New York Academy of Art</a></p><p class=\"indent\">Discovery Scholar Prize, University of Southern California // Los Angeles, CA</p><p class=\"indent\"><strong>2025</strong></p><p class=\"indent\">Macomber Travel Award, University of Southern California // Los Angeles, CA</p><p class=\"indent\"><strong>2024</strong></p><p class=\"indent\">Best of Show, Korean American Artists Association of Washington State // WA</p><p class=\"indent\"><strong>2023</strong></p><p class=\"indent\">Best in Show, Saddleback College Spring Student Showcase Award // Mission Viejo, CA </p><p class=\"indent\"><strong>2022</strong></p><p class=\"indent\">First Place in Painting, Saddleback College Spring Student Showcase Award // Mission Viejo, CA</p><h2 class=\"indent\">Education</h2><p class=\"indent\"><strong>2026</strong></p><p class=\"indent\">BFA Fine Arts, University of Southern California, Los Angeles, CA</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/gallery",
+    "title": "Gallery 1",
+    "fullTitle": "Gallery 1 — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 2,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1776683316317_520",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 3,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">INSTALLATION / CERAMIC / SCULPTURE</p>"
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-grid",
+        "props": {
+          "aspectRatio": "square",
+          "scrollAnimation": "site-default",
+          "gutter": 12,
+          "numColumns": 4,
+          "width": "full-bleed",
+          "lightboxEnabled": true
+        },
+        "items": [
+          {
+            "assetId": "1779618992252-WH07X7SGPAZA9OOCB5MJ",
+            "alt": "DSC_4072+%282%29.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-5-5",
+            "caption": null
+          },
+          {
+            "assetId": "2aade0b4-fd14-4d01-839c-29c8f5eb4cc3",
+            "alt": "install-.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-2-4",
+            "caption": null
+          },
+          {
+            "assetId": "ccb89520-c87a-43ea-a1bd-3e1eb5e80085",
+            "alt": "엄마-0340.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-2-3",
+            "caption": null
+          },
+          {
+            "assetId": "1779619319100-XU1JCAZTLQ7L682ADONM",
+            "alt": "DSC_9905.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-2-3",
+            "caption": null
+          },
+          {
+            "assetId": "cc6022dc-5207-414c-92f9-02dd5ede1b50",
+            "alt": "carring blossom.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-5",
+            "caption": null
+          },
+          {
+            "assetId": "ee1c4900-da22-4254-8887-c76cbd886275",
+            "alt": "472890910_1010492967782606_2353419013385629839_n.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-1",
+            "caption": null
+          },
+          {
+            "assetId": "9f55e0f9-8ca6-4ca1-94e8-055a5fde2af1",
+            "alt": "DSC_4078 (1).jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-5-5",
+            "caption": null
+          },
+          {
+            "assetId": "29de8630-cd61-4310-bad8-04fbe87ceabd",
+            "alt": "450831140_1035095321571465_1770468227649311776_n.jpg",
+            "focal": "0.5,0.5",
+            "href": "?itemId=55y0r6ikn2tr8gsi01nz7y5dxnlg06",
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 4,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "85accec37bdf9d0bd3eb",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 5,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">PAINTING</p>"
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-grid",
+        "props": {
+          "aspectRatio": "square",
+          "scrollAnimation": "site-default",
+          "gutter": 12,
+          "numColumns": 4,
+          "width": "full-bleed",
+          "lightboxEnabled": true
+        },
+        "items": [
+          {
+            "assetId": "1779619202183-XGBAQ8YADSAEYQSR3Q0H",
+            "alt": "DSC_4085.jpg",
+            "focal": "0.5,0.5",
+            "href": "?itemId=f3xn5zc1x2cxehb7me4lo27yfppkp0",
+            "caption": null
+          },
+          {
+            "assetId": "a6790617-5d4b-48d2-b21a-812fb2a809c8",
+            "alt": "carring blossom-2.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-2-2",
+            "caption": null
+          },
+          {
+            "assetId": "92d4705a-6072-4d67-98ff-39e1bc850828",
+            "alt": "족자-9956.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-4",
+            "caption": null
+          },
+          {
+            "assetId": "6e3c633b-31ed-460a-97d5-a5abd103c9c5",
+            "alt": "carring blossom-5.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-2-1",
+            "caption": null
+          },
+          {
+            "assetId": "4e4ab9dd-fa92-4339-8adf-c1f451313e81",
+            "alt": "carring blossom-7.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-1-1",
+            "caption": null
+          },
+          {
+            "assetId": "3ba9eac7-3ec0-43bc-8fe5-ff42d090478a",
+            "alt": "carring blossom-10.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-3",
+            "caption": null
+          },
+          {
+            "assetId": "7d3b8e98-c501-47eb-ae83-1a522c6134bf",
+            "alt": "carring blossom.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-2",
+            "caption": null
+          },
+          {
+            "assetId": "e98bc11d-71a1-4628-bc56-3059ce91dd1c",
+            "alt": "breath-5780.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-5-4-1",
+            "caption": null
+          },
+          {
+            "assetId": "dc59e417-572b-490a-a257-66c1c5e5e740",
+            "alt": "Every Fall, We Make Rice Cakes_Painting #2.jpg",
+            "focal": "0.5,0.5",
+            "href": "?itemId=nxu9g5jkx87zmtzee2gbcw7w2t2pjd-spm23",
+            "caption": null
+          },
+          {
+            "assetId": "e5509f91-29f6-4061-be2b-4327e047d7e5",
+            "alt": "DSC_3331.jpg",
+            "focal": "0.5,0.5",
+            "href": "/portfolio-3/project-one-h346n-mnen4",
+            "caption": null
+          },
+          {
+            "assetId": "81f1ac47-61c4-4c69-b6bb-ec6acbc29f67",
+            "alt": "DSC_3316.jpg",
+            "focal": "0.5,0.5",
+            "href": "/portfolio-3/project-one-h346n-mnen4",
+            "caption": null
+          },
+          {
+            "assetId": "3808c427-96af-486f-a35d-14918bc03d23",
+            "alt": "DSC_3295.jpg",
+            "focal": "0.5,0.5",
+            "href": "/portfolio-3/project-one-h346n-mnen4",
+            "caption": null
+          },
+          {
+            "assetId": "693a1691-7a3d-43ad-b908-0a1691732baf",
+            "alt": "DSC_3297.jpg",
+            "focal": "0.5,0.5",
+            "href": "/portfolio-3/project-one-h346n-mnen4",
+            "caption": null
+          },
+          {
+            "assetId": "a557d85b-3680-4a97-9f3b-b3a2e12dd8b6",
+            "alt": "DSC_3293.jpg",
+            "focal": "0.5,0.5",
+            "href": "/portfolio-3/project-one-h346n-mnen4",
+            "caption": null
+          },
+          {
+            "assetId": "1770644901190-QOVACF2U857T26QPMAV1",
+            "alt": "DSC_3312.jpg",
+            "focal": "0.5,0.5",
+            "href": "/portfolio-3/project-one-h346n-mnen4",
+            "caption": null
+          },
+          {
+            "assetId": "1770644934569-OG391YOXPS6STSSQB96U",
+            "alt": "DSC_3311.jpg",
+            "focal": "0.5,0.5",
+            "href": "/portfolio-3/project-one-h346n-mnen4",
+            "caption": null
+          },
+          {
+            "assetId": "5a0a08da-92f5-4349-ba3b-f43c1f00b8de",
+            "alt": "Yoon Lee_Project Image_3.jpg",
+            "focal": "0.5,0.5",
+            "href": "/new-page-71-1-3",
+            "caption": null
+          },
+          {
+            "assetId": "6e6cc96f-4fd0-491d-84bb-a379cf75516b",
+            "alt": "new-foil-chicken copy.jpg",
+            "focal": "0.5,0.5",
+            "href": "?itemId=zxotr54eaq0r2hoc3iq7778d9ejimf-bbmj8",
+            "caption": null
+          },
+          {
+            "assetId": "677ff116-aaa4-4239-8fda-9b12c4295be6",
+            "alt": "Overwhelm.jpg",
+            "focal": "0.5,0.5",
+            "href": "?itemId=inssydxr9nk7hm8wec5ax7r1tlbh4d-hw6jx",
+            "caption": null
+          },
+          {
+            "assetId": "261f41ba-104b-4ac5-87dd-d700f8fc52c0",
+            "alt": "First Button.JPG",
+            "focal": "0.5,0.5",
+            "href": "?itemId=3lsclb2gdqt2ep9pouhic5rrtrlqr8-b9n5f",
+            "caption": null
+          },
+          {
+            "assetId": "88b33e21-3179-4e8e-890b-93a311b9cdfc",
+            "alt": "Unchangeable.JPG",
+            "focal": "0.5,0.5",
+            "href": "?itemId=gyjqozbt82wdkbb9p8l6eqec5jvqjn-9g524",
+            "caption": null
+          },
+          {
+            "assetId": "ff9192c0-996b-4b77-9ba9-90065d5a1557",
+            "alt": "LA Landscape png copy.jpg",
+            "focal": "0.5,0.5",
+            "href": "?itemId=mehgrma0993wtan1mc332hczu9i1eo-alpc3",
+            "caption": null
+          },
+          {
+            "assetId": "ba0c8005-a093-4749-b562-5927a727f372",
+            "alt": "Santa Fe Street .jpg",
+            "focal": "0.5,0.5",
+            "href": "?itemId=gfmmtfsozlx1yu1og4z963uyvpecon-7tew2",
+            "caption": null
+          },
+          {
+            "assetId": "fba3f673-5456-4145-a550-7275e645c15e",
+            "alt": "448905064_325235130630518_1388608426202550042_n.jpg",
+            "focal": "0.5,0.5",
+            "href": "?itemId=0vv4uff5cqdqvhju49q0s74g85rtdl-4p9w4",
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71",
+    "title": "hide and seek",
+    "fullTitle": "hide and seek — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 104,
+        "rowsMobile": 37,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1770633510732_23250",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 6,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Hide and Seek</em></p><p class=\"ta-center\">2023</p><p class=\"ta-center\">Photos</p>"
+          },
+          {
+            "type": "image",
+            "id": "5990f4b93a7d31904555",
+            "desktop": {
+              "r1": 6,
+              "c1": 4,
+              "r2": 25,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "b8613667-3230-41ea-b9ab-4523c00c0dfd",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "35d50dc23c74e66c3b4a",
+            "desktop": {
+              "r1": 25,
+              "c1": 4,
+              "r2": 44,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "b9d8013e-449e-46e0-89b1-b6cce450fa40",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "f21e5f428292ff62fbed",
+            "desktop": {
+              "r1": 45,
+              "c1": 4,
+              "r2": 64,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "8560cc3b-2edc-4d66-a044-a7d7f8bdcfe3",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "ca13976a6a6c5a35ab9b",
+            "desktop": {
+              "r1": 65,
+              "c1": 4,
+              "r2": 84,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "33f0e65d-1ddf-4344-80d7-4a19b857f367",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "04a9ca06088396128279",
+            "desktop": {
+              "r1": 85,
+              "c1": 4,
+              "r2": 104,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "64b832a6-3aaa-4a50-ac12-7c2526a7e243",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-1",
+    "title": "apron",
+    "fullTitle": "apron — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 103,
+        "rowsMobile": 37,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "fafa34ef8ff3e4174311",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Burden</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Felt, Wool, Stockings, and Strings</p><p class=\"ta-center\">48 x 30 x 10 inches</p>"
+          },
+          {
+            "type": "image",
+            "id": "5b365139a6ff6b29715e",
+            "desktop": {
+              "r1": 6,
+              "c1": 9,
+              "r2": 24,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "ee1c4900-da22-4254-8887-c76cbd886275",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 18,
+              "rows": 18,
+              "w": 888.3,
+              "h": 652.7,
+              "ar": 1.361,
+              "widthPct": 0.7022
+            }
+          },
+          {
+            "type": "image",
+            "id": "00a7cfc24e2e62b9cb4e",
+            "desktop": {
+              "r1": 25,
+              "c1": 4,
+              "r2": 44,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "f26a9442-e746-4636-97a5-769dd82ccefb",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "13acf0d99812c8ff0f24",
+            "desktop": {
+              "r1": 45,
+              "c1": 4,
+              "r2": 64,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "34fc21c5-7386-485e-a223-bd949c6a1426",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "26b1142c662a9852c34d",
+            "desktop": {
+              "r1": 65,
+              "c1": 4,
+              "r2": 84,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "83adb940-f3a0-464f-86cc-0cddb77c7c10",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "41d06fb199c0b8dceae5",
+            "desktop": {
+              "r1": 85,
+              "c1": 4,
+              "r2": 104,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "a8dd7f03-75f4-41a1-9ee2-8ad59e4855ce",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-2",
+    "title": "blue tears",
+    "fullTitle": "blue tears — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 124,
+        "rowsMobile": 44,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "bd684792fa4e328b7be1",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Blue Tears</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Oil on Wood</p><p class=\"ta-center\">16 x 20 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "a922765006aad6400b60",
+            "desktop": {
+              "r1": 6,
+              "c1": 4,
+              "r2": 25,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "7d3b8e98-c501-47eb-ae83-1a522c6134bf",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "ddd9ab010861bd8b2efb",
+            "desktop": {
+              "r1": 26,
+              "c1": 4,
+              "r2": 45,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "bdf55d03-a92c-48d2-ac15-009ae24f8e72",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "3cc01a3158ef2d4a7514",
+            "desktop": {
+              "r1": 46,
+              "c1": 4,
+              "r2": 65,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "1bad7a02-4df6-4392-ac52-62c195ac23c1",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "ae404c5d79f1c4f8f52f",
+            "desktop": {
+              "r1": 66,
+              "c1": 4,
+              "r2": 85,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "9c100bbd-b29c-4c22-9a56-73ccff94b3fc",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "c90dce591afa20767210",
+            "desktop": {
+              "r1": 86,
+              "c1": 4,
+              "r2": 105,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "850dcaf5-7573-42b6-a646-7c50c8f0dd19",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "152e5ec690a634312406",
+            "desktop": {
+              "r1": 106,
+              "c1": 4,
+              "r2": 125,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 38,
+              "c1": 2,
+              "r2": 45,
+              "c2": 10
+            },
+            "z": 5,
+            "assetId": "2c6d0f4e-f56b-4935-b43a-974686621a65",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-1-1",
+    "title": "untitled",
+    "fullTitle": "untitled — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 64,
+        "rowsMobile": 23,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "007d9651d126631ea58c",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Untitled</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Acrylics, Charcoal, and Color Pencils on Linen</p><p class=\"ta-center\">30 x 40 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "4c8a077bb098dad8c698",
+            "desktop": {
+              "r1": 6,
+              "c1": 4,
+              "r2": 25,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "4e4ab9dd-fa92-4339-8adf-c1f451313e81",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "8156a7f0f71a7aceabe5",
+            "desktop": {
+              "r1": 26,
+              "c1": 4,
+              "r2": 45,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "f3ce21ef-f582-48b9-9f4b-d861e85e929e",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "75a626564abf89ffeb15",
+            "desktop": {
+              "r1": 46,
+              "c1": 4,
+              "r2": 65,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "be4de179-474d-430c-a5f3-919718c64386",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-3",
+    "title": "untitled",
+    "fullTitle": "untitled — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 105,
+        "rowsMobile": 37,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "450d94d59fa1d015978b",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Untitled</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Acrylics, Charcoal, and Color Pencils on Linen</p><p class=\"ta-center\">30 x 40 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "ad44645918495c2c37f3",
+            "desktop": {
+              "r1": 6,
+              "c1": 4,
+              "r2": 25,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "3ba9eac7-3ec0-43bc-8fe5-ff42d090478a",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "23a30c54f1fe2472b2f0",
+            "desktop": {
+              "r1": 26,
+              "c1": 4,
+              "r2": 45,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "43bf40cf-b538-4dff-9e54-f8aa7c8fd4bf",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "0a9d3b3ba40ed716c653",
+            "desktop": {
+              "r1": 46,
+              "c1": 4,
+              "r2": 65,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "2508bdfe-1c9e-41b1-a8a4-6c4a70c48181",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "f94ed1b151ddfcd09e48",
+            "desktop": {
+              "r1": 66,
+              "c1": 4,
+              "r2": 85,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "e048b9f6-b581-4d26-9ab0-5275059924ff",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "85203aadbda7a8fafd17",
+            "desktop": {
+              "r1": 86,
+              "c1": 4,
+              "r2": 105,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "30e0dba0-a504-401f-b82c-b34554354d36",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-2-1",
+    "title": "untitled",
+    "fullTitle": "untitled — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 124,
+        "rowsMobile": 44,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "e8245e9e303afd6cdff0",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Untitled</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Acrylic on Wood Panel</p><p class=\"ta-center\">24 x 18 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "4e724abfd7014ed440f7",
+            "desktop": {
+              "r1": 6,
+              "c1": 4,
+              "r2": 25,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "88ae191a-4ceb-4d33-8e01-891b3901a71c",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "33c5ff04a5173402f331",
+            "desktop": {
+              "r1": 26,
+              "c1": 4,
+              "r2": 45,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "badab5e8-f6b4-4734-a589-b8d00fb257e8",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "16258decc7f84fc5d145",
+            "desktop": {
+              "r1": 46,
+              "c1": 4,
+              "r2": 65,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "e08047e6-32fa-4ae5-b305-3c0006c59fc1",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "ce81185bbcc78c250ce0",
+            "desktop": {
+              "r1": 66,
+              "c1": 4,
+              "r2": 85,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "2454866b-93c8-4177-ad35-56ccf8ef10b0",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "8e10ced645eb16eae047",
+            "desktop": {
+              "r1": 86,
+              "c1": 4,
+              "r2": 105,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "a23647da-33ed-41e6-9878-75f24cd56b71",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "d2a58d3780f20b5ce8d0",
+            "desktop": {
+              "r1": 106,
+              "c1": 4,
+              "r2": 125,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 38,
+              "c1": 2,
+              "r2": 45,
+              "c2": 10
+            },
+            "z": 5,
+            "assetId": "53879bb3-dfbd-47a9-b3e7-27d178270e76",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-2-2",
+    "title": "last bloom",
+    "fullTitle": "last bloom — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 106,
+        "rowsMobile": 43,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "5a49b72da61ea77f7993",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 7,
+              "c1": 2,
+              "r2": 9,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Last Bloom</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Korean Pigment on Korean Mulberry Paper</p><p class=\"ta-center\">24 x 20 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "4238a969a410eeaa2f93",
+            "desktop": {
+              "r1": 7,
+              "c1": 4,
+              "r2": 26,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 9,
+              "c1": 2,
+              "r2": 16,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "a6790617-5d4b-48d2-b21a-812fb2a809c8",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "6319a2a0eec54f6bb8f3",
+            "desktop": {
+              "r1": 27,
+              "c1": 4,
+              "r2": 46,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 16,
+              "c1": 2,
+              "r2": 23,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "17479e5e-a469-483d-a73a-c8e1def18bcc",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "5aacbc3673c719ee42d5",
+            "desktop": {
+              "r1": 47,
+              "c1": 4,
+              "r2": 66,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 23,
+              "c1": 2,
+              "r2": 30,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "8fd77a99-85b4-4552-b965-8728f95d106e",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "20ed7fc2068465b3ea6f",
+            "desktop": {
+              "r1": 67,
+              "c1": 4,
+              "r2": 86,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 30,
+              "c1": 2,
+              "r2": 37,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "926d49bb-373e-404b-9570-8fb2760d0ca5",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "cc05d26589fc2d914b8b",
+            "desktop": {
+              "r1": 87,
+              "c1": 4,
+              "r2": 106,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 37,
+              "c1": 2,
+              "r2": 44,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "b00f45c5-9f4e-498b-8f2a-910e0869dd1f",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-2-3",
+    "title": "Karma",
+    "fullTitle": "Karma — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 124,
+        "rowsMobile": 44,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "98a097c4f4f69bf0ab13",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Karma</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Ceramic</p><p class=\"ta-center\">24 x 16 x 53 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "8f583e4dce1f09eb84ce",
+            "desktop": {
+              "r1": 7,
+              "c1": 10,
+              "r2": 25,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "ccb89520-c87a-43ea-a1bd-3e1eb5e80085",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 17,
+              "rows": 18,
+              "w": 838.3,
+              "h": 652.7,
+              "ar": 1.2845,
+              "widthPct": 0.6627
+            }
+          },
+          {
+            "type": "image",
+            "id": "c08905a21ab8d71c36b0",
+            "desktop": {
+              "r1": 26,
+              "c1": 4,
+              "r2": 45,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "1765182022508-N3O0L4QDRO57O3IFH6BA",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "e4256028cd05c80d92ec",
+            "desktop": {
+              "r1": 46,
+              "c1": 4,
+              "r2": 65,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "9dd4f416-c3a5-4d2c-b510-cd2c425ff708",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "8ac20026a71e7db5390a",
+            "desktop": {
+              "r1": 66,
+              "c1": 4,
+              "r2": 85,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "87017971-093a-45b3-b1d8-856416f671cb",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "533ffc977df0350276f6",
+            "desktop": {
+              "r1": 87,
+              "c1": 4,
+              "r2": 105,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "f29c4689-13a5-4f20-aac3-fc9ce0345260",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 18,
+              "w": 988.2,
+              "h": 652.7,
+              "ar": 1.5141,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "658c649777e047668745",
+            "desktop": {
+              "r1": 106,
+              "c1": 4,
+              "r2": 125,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 38,
+              "c1": 2,
+              "r2": 45,
+              "c2": 10
+            },
+            "z": 5,
+            "assetId": "234a5e17-5422-440c-b19f-4a3690b6a4f1",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-2-4",
+    "title": "the weight of blossom",
+    "fullTitle": "the weight of blossom — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 164,
+        "rowsMobile": 58,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "2ccfbddab428eabeff45",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>The Weight of Blossom</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Ceramic</p><p class=\"ta-center\">12 x 12 x 30 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "5e5ca6b18f04f14b113b",
+            "desktop": {
+              "r1": 6,
+              "c1": 4,
+              "r2": 25,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "b76b3c31-9482-412f-a9e5-9e52b2f4aa1b",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "621f37a4341c749f4790",
+            "desktop": {
+              "r1": 26,
+              "c1": 4,
+              "r2": 45,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "c60ddc2f-0552-4488-b5fc-de1ffba14357",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "c7209f7baa789af4c96a",
+            "desktop": {
+              "r1": 46,
+              "c1": 4,
+              "r2": 65,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "9f5d64f7-4f04-4597-b306-92a6479ef89e",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "6e98417335b0c2742f28",
+            "desktop": {
+              "r1": 66,
+              "c1": 4,
+              "r2": 85,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "232cec2b-89bd-4137-b464-53e2151915ba",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "b070dbce90750b006f81",
+            "desktop": {
+              "r1": 86,
+              "c1": 4,
+              "r2": 105,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "be354aee-ce9e-4fbd-97fe-d4948dd1d0ee",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "302bec7e4d69e9d7ee74",
+            "desktop": {
+              "r1": 106,
+              "c1": 4,
+              "r2": 125,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 38,
+              "c1": 2,
+              "r2": 45,
+              "c2": 10
+            },
+            "z": 5,
+            "assetId": "f94a3c7c-c2e6-4af7-b274-5fef3d826a58",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "61aced0f212f08845fa7",
+            "desktop": {
+              "r1": 126,
+              "c1": 4,
+              "r2": 145,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 45,
+              "c1": 2,
+              "r2": 52,
+              "c2": 10
+            },
+            "z": 6,
+            "assetId": "fa480050-4af4-4b57-9bcb-2ce3834b7d61",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "c0f0023e08fbf16e4fba",
+            "desktop": {
+              "r1": 146,
+              "c1": 4,
+              "r2": 165,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 52,
+              "c1": 2,
+              "r2": 59,
+              "c2": 10
+            },
+            "z": 7,
+            "assetId": "5148666f-73fe-457f-a7e1-0f6ad46fa5c6",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-1-2",
+    "title": "my dad",
+    "fullTitle": "my dad — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 83,
+        "rowsMobile": 30,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "7073267fd2ef5f9f587e",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 6,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>My Dad</em></p><p class=\"ta-center\">2023</p><p class=\"ta-center\">Photos</p>"
+          },
+          {
+            "type": "image",
+            "id": "8c3fd239a86cf03a568e",
+            "desktop": {
+              "r1": 6,
+              "c1": 10,
+              "r2": 25,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "c6c68a09-6e3c-42e1-8065-3e83e34217c7",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 17,
+              "rows": 19,
+              "w": 838.3,
+              "h": 689.5,
+              "ar": 1.2158,
+              "widthPct": 0.6627
+            }
+          },
+          {
+            "type": "image",
+            "id": "118131aceb2f6c7462cf",
+            "desktop": {
+              "r1": 26,
+              "c1": 10,
+              "r2": 45,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "62056822-446c-4be3-bcfc-c1815242e8b3",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 17,
+              "rows": 19,
+              "w": 838.3,
+              "h": 689.5,
+              "ar": 1.2158,
+              "widthPct": 0.6627
+            }
+          },
+          {
+            "type": "image",
+            "id": "0fec323d9f11fc82746b",
+            "desktop": {
+              "r1": 46,
+              "c1": 10,
+              "r2": 64,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "9438ed1b-a248-471c-bb77-6fb6f44a2f47",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 17,
+              "rows": 18,
+              "w": 838.3,
+              "h": 652.7,
+              "ar": 1.2845,
+              "widthPct": 0.6627
+            }
+          },
+          {
+            "type": "image",
+            "id": "7a7e4e2c79efada9d6b3",
+            "desktop": {
+              "r1": 65,
+              "c1": 10,
+              "r2": 84,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "31933e7a-e4f1-4e3b-bf3f-c827d764be17",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 17,
+              "rows": 19,
+              "w": 838.3,
+              "h": 689.5,
+              "ar": 1.2158,
+              "widthPct": 0.6627
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-1-3",
+    "title": "persona",
+    "fullTitle": "persona — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 86,
+        "rowsMobile": 30,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "f7b00fded1c1bd59311d",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Persona</em></p><p class=\"ta-center\">2024</p><p class=\"ta-center\">Acrylics on a Punching Bag</p><p class=\"ta-center\">47 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "f135db2d21b7eaa0ba71",
+            "desktop": {
+              "r1": 6,
+              "c1": 9,
+              "r2": 24,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "5a0a08da-92f5-4349-ba3b-f43c1f00b8de",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 18,
+              "rows": 18,
+              "w": 888.3,
+              "h": 652.7,
+              "ar": 1.361,
+              "widthPct": 0.7022
+            }
+          },
+          {
+            "type": "image",
+            "id": "3a19885e2b154a2b3326",
+            "desktop": {
+              "r1": 26,
+              "c1": 4,
+              "r2": 45,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "233667ca-882a-4c30-8662-a4863edba0c9",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "3160cfb1145bb5c425d3",
+            "desktop": {
+              "r1": 46,
+              "c1": 9,
+              "r2": 65,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "7e4c1e7d-e5d6-4a2c-ba0b-765fa52219cb",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 18,
+              "rows": 19,
+              "w": 888.3,
+              "h": 689.5,
+              "ar": 1.2882,
+              "widthPct": 0.7022
+            }
+          },
+          {
+            "type": "image",
+            "id": "5b29241b530db5d871fb",
+            "desktop": {
+              "r1": 67,
+              "c1": 9,
+              "r2": 85,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "970589f4-1019-4434-82cd-156b4fa4d2ea",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 18,
+              "rows": 18,
+              "w": 888.3,
+              "h": 652.7,
+              "ar": 1.361,
+              "widthPct": 0.7022
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-1-3-1",
+    "title": "comfort",
+    "fullTitle": "comfort — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 124,
+        "rowsMobile": 44,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "305976ec2dcaf7e53d3c",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>What is Left Behind?</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Ceramic</p><p class=\"ta-center\">19 x 6 x 15 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "750eb0c6782d7a47b858",
+            "desktop": {
+              "r1": 6,
+              "c1": 4,
+              "r2": 25,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "1767605889853-6496ORO1RMIOLLE7W1ZK",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "7dfd9e166ce985cfeca8",
+            "desktop": {
+              "r1": 26,
+              "c1": 4,
+              "r2": 45,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "6ce4e0dc-5746-4eb1-bc02-b29c1b58f81c",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "4123424aca46f608b903",
+            "desktop": {
+              "r1": 46,
+              "c1": 4,
+              "r2": 65,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "d2b89de9-98ee-4b68-9993-3e091dd240de",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "6fc3b6dad5dde3a622b5",
+            "desktop": {
+              "r1": 66,
+              "c1": 4,
+              "r2": 85,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "566084a3-802d-4160-8b4f-e283f32ce33e",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "bae8443a32872339e813",
+            "desktop": {
+              "r1": 86,
+              "c1": 4,
+              "r2": 105,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "4eb1d11d-54f6-41ba-8848-2e34cce15868",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "9357a7c2a0e62dbb1e8c",
+            "desktop": {
+              "r1": 106,
+              "c1": 4,
+              "r2": 125,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 38,
+              "c1": 2,
+              "r2": 45,
+              "c2": 10
+            },
+            "z": 5,
+            "assetId": "26131613-8768-46f5-bb57-35d9bbe0c372",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-1-2-1",
+    "title": "vulnerable",
+    "fullTitle": "vulnerable — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 65,
+        "rowsMobile": 23,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "4a3b9e96b93889cbca30",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 9,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Vulnerable</em></p><p class=\"ta-center\">2024</p><p class=\"ta-center\">Aqua resin, mulberry paper, and photos</p><p class=\"ta-center\">11 x 11 x 8 inches</p>"
+          },
+          {
+            "type": "image",
+            "id": "5eaacca5f39fb0f252e9",
+            "desktop": {
+              "r1": 7,
+              "c1": 4,
+              "r2": 26,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "1e2430d5-4618-4b4d-ad16-e77c085e6b4e",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "68bed8f338504e765b9e",
+            "desktop": {
+              "r1": 27,
+              "c1": 4,
+              "r2": 46,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "c9362966-2924-4d06-a299-ad87a3f57010",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "59418f02076520c045f5",
+            "desktop": {
+              "r1": 47,
+              "c1": 4,
+              "r2": 66,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "93ddc9a5-fdd5-48aa-ae2f-7b125fb34bca",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-4",
+    "title": "filial daughter",
+    "fullTitle": "filial daughter — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 105,
+        "rowsMobile": 37,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "7fdef42bd7a0d7b604f1",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Did I jump, or was I pushed to be a filial daughter?</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Korean Pigment on Korean Mulberry Paper</p><p class=\"ta-center\">15 x 58 in each</p>"
+          },
+          {
+            "type": "image",
+            "id": "781095c331d3cabebbf4",
+            "desktop": {
+              "r1": 6,
+              "c1": 4,
+              "r2": 25,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "92d4705a-6072-4d67-98ff-39e1bc850828",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "eda274509aa324f7f6a1",
+            "desktop": {
+              "r1": 26,
+              "c1": 4,
+              "r2": 45,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "15bdac02-7782-47ea-9e58-0489bae31913",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "5a3d7a96b906ce3dcc27",
+            "desktop": {
+              "r1": 46,
+              "c1": 4,
+              "r2": 65,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "a4e48069-4c75-409c-bf23-f7ef67949fde",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "719d14e25f40c80d2ea8",
+            "desktop": {
+              "r1": 66,
+              "c1": 4,
+              "r2": 85,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "18eeca90-71b9-4f78-8a6a-551fe3ae31c0",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "7782fe07d1c718bb5371",
+            "desktop": {
+              "r1": 86,
+              "c1": 4,
+              "r2": 105,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "3830ffd0-9131-4a2c-8326-7fba86d9cf36",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-5",
+    "title": "what is left behind",
+    "fullTitle": "what is left behind — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 124,
+        "rowsMobile": 44,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "3166c652517b3468e2df",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>What is Left Behind?</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Ceramic</p><p class=\"ta-center\">19 x 6 x 15 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "6ac81aae99e77e31dc5f",
+            "desktop": {
+              "r1": 6,
+              "c1": 4,
+              "r2": 25,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "1767605889853-6496ORO1RMIOLLE7W1ZK",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "97b8136eff37c83ae82d",
+            "desktop": {
+              "r1": 26,
+              "c1": 4,
+              "r2": 45,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "6ce4e0dc-5746-4eb1-bc02-b29c1b58f81c",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "ecb5a3e19ca3514108f2",
+            "desktop": {
+              "r1": 46,
+              "c1": 4,
+              "r2": 65,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "d2b89de9-98ee-4b68-9993-3e091dd240de",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "3ce6f376214e0bb2cefa",
+            "desktop": {
+              "r1": 66,
+              "c1": 4,
+              "r2": 85,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "566084a3-802d-4160-8b4f-e283f32ce33e",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "0cfa9c734c57999d6c6e",
+            "desktop": {
+              "r1": 86,
+              "c1": 4,
+              "r2": 105,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "4eb1d11d-54f6-41ba-8848-2e34cce15868",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "59a75f2626d1f0a5f378",
+            "desktop": {
+              "r1": 106,
+              "c1": 4,
+              "r2": 125,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 38,
+              "c1": 2,
+              "r2": 45,
+              "c2": 10
+            },
+            "z": 5,
+            "assetId": "26131613-8768-46f5-bb57-35d9bbe0c372",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-5-1",
+    "title": "breakaway",
+    "fullTitle": "breakaway — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 139,
+        "rowsMobile": 51,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "2b98be55f3f7b93bbf1a",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 9,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Breakaway</em></p><p class=\"ta-center\">2023</p><p class=\"ta-center\">Collagraph on Rives BFK paper. Chine-colle.</p><p class=\"ta-center\">Each panel: 11 x 15 inches</p>"
+          },
+          {
+            "type": "image",
+            "id": "1c69c22da6e0834ad864",
+            "desktop": {
+              "r1": 19,
+              "c1": 4,
+              "r2": 38,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "cc3ae2b5-e20e-48c1-93e1-3a2886ee8e13",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "c636d5472cee086ef465",
+            "desktop": {
+              "r1": 2,
+              "c1": 4,
+              "r2": 21,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "66c61206-4ef3-4b0a-9c70-3dc99cbf8e1d",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "61139f411f950235731a",
+            "desktop": {
+              "r1": 37,
+              "c1": 6,
+              "r2": 56,
+              "c2": 26
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "79871a46-9137-4d2b-b899-895b757d85a4",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "446a8663fb855825044b",
+            "desktop": {
+              "r1": 79,
+              "c1": 4,
+              "r2": 98,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "40ddf31b-faf0-4dc6-8606-4c39a534e2e3",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "5da8db70141e829b8123",
+            "desktop": {
+              "r1": 58,
+              "c1": 4,
+              "r2": 77,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "d852d296-6c32-4f96-9ab1-13125cd47d58",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "7effe764cbd86f592ce0",
+            "desktop": {
+              "r1": 100,
+              "c1": 4,
+              "r2": 119,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 38,
+              "c1": 2,
+              "r2": 45,
+              "c2": 10
+            },
+            "z": 5,
+            "assetId": "f8dea28b-825e-41eb-ba50-2655ed062882",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "7818c90ecd2e1ff1e832",
+            "desktop": {
+              "r1": 121,
+              "c1": 4,
+              "r2": 140,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 45,
+              "c1": 2,
+              "r2": 52,
+              "c2": 10
+            },
+            "z": 6,
+            "assetId": "ebde0b26-dce0-446c-bab2-f527485c6184",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-5-2",
+    "title": "rebirth",
+    "fullTitle": "rebirth — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 67,
+        "rowsMobile": 23,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "45186d02d1cf68c9b9a5",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Rebirth</em></p><p class=\"ta-center\">2023</p><p class=\"ta-center\">18 x 15 x 5 inches</p><p class=\"ta-center\">Buttons, clay, resin, and acrylic paint on wood board</p>"
+          },
+          {
+            "type": "image",
+            "id": "5fa0bbd815380c62e1ec",
+            "desktop": {
+              "r1": 7,
+              "c1": 4,
+              "r2": 26,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "ae493a9f-4840-4870-a1eb-7eb1171475af",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "b4f01483efd1ee219d7e",
+            "desktop": {
+              "r1": 28,
+              "c1": 8,
+              "r2": 47,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "645642d8-393b-4af1-9e52-84781111c83e",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 19,
+              "rows": 19,
+              "w": 938.2,
+              "h": 689.5,
+              "ar": 1.3607,
+              "widthPct": 0.7417
+            }
+          },
+          {
+            "type": "image",
+            "id": "53c75b682d11898e9890",
+            "desktop": {
+              "r1": 49,
+              "c1": 4,
+              "r2": 68,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "84d4ddd7-28ac-4e69-adb0-9b167236ae1f",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-5-3",
+    "title": "the little prince",
+    "fullTitle": "the little prince — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 105,
+        "rowsMobile": 36,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "a660316aa2210c93e015",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>The Little Prince (incense holder)</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Bronze</p><p class=\"ta-center\">2 x 2 x 5 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "67e12256f751a2e6fbe5",
+            "desktop": {
+              "r1": 7,
+              "c1": 9,
+              "r2": 25,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "10b1fb86-160a-445b-854b-47cb97474edd",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 18,
+              "rows": 18,
+              "w": 888.3,
+              "h": 652.7,
+              "ar": 1.361,
+              "widthPct": 0.7022
+            }
+          },
+          {
+            "type": "image",
+            "id": "df141023be3fb2ac4aa6",
+            "desktop": {
+              "r1": 26,
+              "c1": 9,
+              "r2": 45,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "e34a94f5-0380-4124-bcb1-caef10b4cfd4",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 15,
+              "rows": 19,
+              "w": 738.4,
+              "h": 689.5,
+              "ar": 1.0709,
+              "widthPct": 0.5837
+            }
+          },
+          {
+            "type": "image",
+            "id": "3742bb35863a37bb43d8",
+            "desktop": {
+              "r1": 46,
+              "c1": 9,
+              "r2": 65,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "c1caff68-8655-41c9-b6ae-ab47c69f7d08",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 15,
+              "rows": 19,
+              "w": 738.4,
+              "h": 689.5,
+              "ar": 1.0709,
+              "widthPct": 0.5837
+            }
+          },
+          {
+            "type": "image",
+            "id": "8ae5d465bf2d3cd6687d",
+            "desktop": {
+              "r1": 66,
+              "c1": 9,
+              "r2": 85,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "d5f53d03-10cd-44d5-b1fc-325159762944",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 15,
+              "rows": 19,
+              "w": 738.4,
+              "h": 689.5,
+              "ar": 1.0709,
+              "widthPct": 0.5837
+            }
+          },
+          {
+            "type": "image",
+            "id": "yui_3_17_2_1_1771922899608_2160",
+            "desktop": {
+              "r1": 86,
+              "c1": 1,
+              "r2": 105,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 37,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "516957de-07df-4b83-9942-535fafa5f8a0",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "center",
+            "link": null,
+            "box": {
+              "cols": 26,
+              "rows": 19,
+              "w": 1288,
+              "h": 689.5,
+              "ar": 1.8679,
+              "widthPct": 1.0182
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-5-3-1",
+    "title": "cloud[ies]",
+    "fullTitle": "cloud[ies] — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 94,
+        "rowsMobile": 36,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "f25384f923338485e795",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Cloud[ies]</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Ceramic</p><p class=\"ta-center\">3 x 1.5 x 6 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "c644b29a71178c5cb3bc",
+            "desktop": {
+              "r1": 6,
+              "c1": 4,
+              "r2": 25,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "10492d69-273c-410f-9e89-7b705d68acee",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "yui_3_17_2_1_1771935533355_1490",
+            "desktop": {
+              "r1": 23,
+              "c1": 6,
+              "r2": 37,
+              "c2": 22
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 16,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "d09dab55-644b-436e-8e05-d04f55fb5385",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "center",
+            "link": null,
+            "box": {
+              "cols": 16,
+              "rows": 14,
+              "w": 788.4,
+              "h": 505.2,
+              "ar": 1.5606,
+              "widthPct": 0.6232
+            }
+          },
+          {
+            "type": "image",
+            "id": "2be83826f87e6815176f",
+            "desktop": {
+              "r1": 36,
+              "c1": 9,
+              "r2": 55,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 16,
+              "c1": 2,
+              "r2": 23,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "b071a3f0-cb59-485a-b57f-2ddb6ab7a855",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 18,
+              "rows": 19,
+              "w": 888.3,
+              "h": 689.5,
+              "ar": 1.2882,
+              "widthPct": 0.7022
+            }
+          },
+          {
+            "type": "image",
+            "id": "47999224e4bbba1b7cf3",
+            "desktop": {
+              "r1": 56,
+              "c1": 9,
+              "r2": 75,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 23,
+              "c1": 2,
+              "r2": 30,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "b6ffbcfc-97f1-4eb8-b18e-bb211cac71ba",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 18,
+              "rows": 19,
+              "w": 888.3,
+              "h": 689.5,
+              "ar": 1.2882,
+              "widthPct": 0.7022
+            }
+          },
+          {
+            "type": "image",
+            "id": "97f560197cd6d2a11986",
+            "desktop": {
+              "r1": 76,
+              "c1": 9,
+              "r2": 95,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 30,
+              "c1": 2,
+              "r2": 37,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "03770e26-807b-4d2a-a2fe-c64141c25409",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 18,
+              "rows": 19,
+              "w": 888.3,
+              "h": 689.5,
+              "ar": 1.2882,
+              "widthPct": 0.7022
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-5-3-2",
+    "title": "playground",
+    "fullTitle": "playground — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 143,
+        "rowsMobile": 50,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "35c136472aa351f3af13",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Playground</em></p><p class=\"ta-center\">2024</p><p class=\"ta-center\">Cotton, Felt, and String</p><p class=\"ta-center\">20 x 20 x 30 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "b702c06fc6fa0b4fa228",
+            "desktop": {
+              "r1": 7,
+              "c1": 8,
+              "r2": 26,
+              "c2": 26
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "39a2e601-8d14-4ff0-835b-9caccab20dd8",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 18,
+              "rows": 19,
+              "w": 888.3,
+              "h": 689.5,
+              "ar": 1.2882,
+              "widthPct": 0.7022
+            }
+          },
+          {
+            "type": "image",
+            "id": "db49e2109dc3ebd428ab",
+            "desktop": {
+              "r1": 27,
+              "c1": 8,
+              "r2": 46,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "b441e487-be0e-4c5c-91df-33ed1d7946bc",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 19,
+              "rows": 19,
+              "w": 938.2,
+              "h": 689.5,
+              "ar": 1.3607,
+              "widthPct": 0.7417
+            }
+          },
+          {
+            "type": "image",
+            "id": "a88652630e7aa3f66875",
+            "desktop": {
+              "r1": 125,
+              "c1": 9,
+              "r2": 144,
+              "c2": 27
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "6ce09989-bbbc-4b20-8f1a-785204a09657",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 18,
+              "rows": 19,
+              "w": 888.3,
+              "h": 689.5,
+              "ar": 1.2882,
+              "widthPct": 0.7022
+            }
+          },
+          {
+            "type": "image",
+            "id": "6d83ba40c26fe395dbb6",
+            "desktop": {
+              "r1": 47,
+              "c1": 4,
+              "r2": 66,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "1a24176e-68b8-40a6-b994-a7a5ede44e16",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "57526b348e51ad49dc57",
+            "desktop": {
+              "r1": 67,
+              "c1": 4,
+              "r2": 86,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "b30d9443-372a-40a9-b058-822bdce7e5d2",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "b6537559b389b11fc8a1",
+            "desktop": {
+              "r1": 87,
+              "c1": 4,
+              "r2": 106,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 38,
+              "c1": 2,
+              "r2": 45,
+              "c2": 10
+            },
+            "z": 5,
+            "assetId": "1f98f656-b2d8-460c-8152-d2a01dd18029",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": true,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 19,
+              "w": 988.2,
+              "h": 689.5,
+              "ar": 1.4332,
+              "widthPct": 0.7812
+            }
+          },
+          {
+            "type": "image",
+            "id": "yui_3_17_2_1_1771924681513_2101",
+            "desktop": {
+              "r1": 107,
+              "c1": 4,
+              "r2": 124,
+              "c2": 24
+            },
+            "mobile": {
+              "r1": 45,
+              "c1": 2,
+              "r2": 51,
+              "c2": 10
+            },
+            "z": 6,
+            "assetId": "2d65e6ca-b12f-4d88-ab3c-28ad5981002c",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "center",
+            "link": null,
+            "box": {
+              "cols": 20,
+              "rows": 17,
+              "w": 988.2,
+              "h": 615.8,
+              "ar": 1.6048,
+              "widthPct": 0.7812
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-5-4",
+    "title": "caring",
+    "fullTitle": "caring — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 137,
+        "rowsMobile": 37,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "78e723cbe18d8aa9a1c2",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 8,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Caring</em></p><p class=\"ta-center\">2026</p><p class=\"ta-center\">Ceramic</p><p class=\"ta-center\">5 x 6 × 13 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "ac030ea712a67b259b16",
+            "desktop": {
+              "r1": 6,
+              "c1": 7,
+              "r2": 29,
+              "c2": 21
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "c98e7240-b8f8-4153-a4be-293fb79b50d2",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 14,
+              "rows": 23,
+              "w": 688.4,
+              "h": 837,
+              "ar": 0.8225,
+              "widthPct": 0.5442
+            }
+          },
+          {
+            "type": "image",
+            "id": "5544a6a8bd1574f52c8a",
+            "desktop": {
+              "r1": 30,
+              "c1": 7,
+              "r2": 54,
+              "c2": 21
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "1dec598e-09f9-49fe-9279-4bd089e69c3b",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 14,
+              "rows": 24,
+              "w": 688.4,
+              "h": 873.9,
+              "ar": 0.7878,
+              "widthPct": 0.5442
+            }
+          },
+          {
+            "type": "image",
+            "id": "1f436f4e44cb08262e94",
+            "desktop": {
+              "r1": 55,
+              "c1": 7,
+              "r2": 79,
+              "c2": 21
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "951ab322-8cc7-4562-97e3-ef6330c43b77",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 14,
+              "rows": 24,
+              "w": 688.4,
+              "h": 873.9,
+              "ar": 0.7878,
+              "widthPct": 0.5442
+            }
+          },
+          {
+            "type": "image",
+            "id": "c63e1a97e5451cbf1a3a",
+            "desktop": {
+              "r1": 80,
+              "c1": 7,
+              "r2": 107,
+              "c2": 21
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 3,
+            "assetId": "c1ed335f-3ec6-47bc-bdbf-3b113d6413b8",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 14,
+              "rows": 27,
+              "w": 688.4,
+              "h": 984.5,
+              "ar": 0.6993,
+              "widthPct": 0.5442
+            }
+          },
+          {
+            "type": "image",
+            "id": "82d954c8c1a783179e39",
+            "desktop": {
+              "r1": 108,
+              "c1": 7,
+              "r2": 138,
+              "c2": 21
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 5,
+            "assetId": "618b9ece-144e-4747-86dc-6f04f8f56b8b",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 14,
+              "rows": 30,
+              "w": 688.4,
+              "h": 1095.1,
+              "ar": 0.6287,
+              "widthPct": 0.5442
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-5-4-1",
+    "title": "breath",
+    "fullTitle": "breath — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 101,
+        "rowsMobile": 37,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "8f85517b009d60c0a95e",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 7,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>Breath</em></p><p class=\"ta-center\">2025</p><p class=\"ta-center\">Clay, foil, mulberry paper, acrylics, and color pencils on Canvas</p><p class=\"ta-center\">30 × 40 × 3 in</p>"
+          },
+          {
+            "type": "image",
+            "id": "81902f4aa11c1b5fafd0",
+            "desktop": {
+              "r1": 7,
+              "c1": 7,
+              "r2": 33,
+              "c2": 22
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 10,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "760adc93-6ef0-4b97-abcc-4aeefc6825a4",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 15,
+              "rows": 26,
+              "w": 738.4,
+              "h": 947.6,
+              "ar": 0.7792,
+              "widthPct": 0.5837
+            }
+          },
+          {
+            "type": "image",
+            "id": "37a55ced4cac7fc60f26",
+            "desktop": {
+              "r1": 34,
+              "c1": 6,
+              "r2": 50,
+              "c2": 23
+            },
+            "mobile": {
+              "r1": 10,
+              "c1": 2,
+              "r2": 17,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "2ca96128-5368-4bf2-9702-a3c90f7b0aac",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 17,
+              "rows": 16,
+              "w": 838.3,
+              "h": 578.9,
+              "ar": 1.4481,
+              "widthPct": 0.6627
+            }
+          },
+          {
+            "type": "image",
+            "id": "476d69a35406cf79eb83",
+            "desktop": {
+              "r1": 51,
+              "c1": 6,
+              "r2": 67,
+              "c2": 23
+            },
+            "mobile": {
+              "r1": 17,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 2,
+            "assetId": "1b4655d3-1d19-4ffa-85f3-d427c05bcb5b",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 17,
+              "rows": 16,
+              "w": 838.3,
+              "h": 578.9,
+              "ar": 1.4481,
+              "widthPct": 0.6627
+            }
+          },
+          {
+            "type": "image",
+            "id": "cd71d22a4909ba37b24a",
+            "desktop": {
+              "r1": 68,
+              "c1": 6,
+              "r2": 84,
+              "c2": 23
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 31,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "92e186fe-dfdc-4e7a-9dd2-804d2d0b7fdb",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 17,
+              "rows": 16,
+              "w": 838.3,
+              "h": 578.9,
+              "ar": 1.4481,
+              "widthPct": 0.6627
+            }
+          },
+          {
+            "type": "image",
+            "id": "8d7c727657768df454ed",
+            "desktop": {
+              "r1": 85,
+              "c1": 6,
+              "r2": 102,
+              "c2": 23
+            },
+            "mobile": {
+              "r1": 31,
+              "c1": 2,
+              "r2": 38,
+              "c2": 10
+            },
+            "z": 5,
+            "assetId": "1f61ec72-e1d7-4bb0-bc07-c92355b2371b",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 17,
+              "rows": 17,
+              "w": 838.3,
+              "h": 615.8,
+              "ar": 1.3614,
+              "widthPct": 0.6627
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/new-page-71-5-5",
+    "title": "What Carries Behind",
+    "fullTitle": "What Carries Behind — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 143,
+        "rowsMobile": 48,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "7dcafc478ad50799d462",
+            "desktop": {
+              "r1": 1,
+              "c1": 10,
+              "r2": 9,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\"><em>What Carries Behind</em></p><p class=\"ta-center\">2026</p><p class=\"ta-center\">Acrylic on canvas, wood, and ceramic</p><p class=\"ta-center\">60 x 64 in</p><p class=\"ta-center\">Video of making folding screen frames:</p>"
+          },
+          {
+            "type": "video",
+            "id": "yui_3_17_2_1_1776681378778_2931",
+            "desktop": {
+              "r1": 8,
+              "c1": 6,
+              "r2": 22,
+              "c2": 22
+            },
+            "mobile": {
+              "r1": 3,
+              "c1": 2,
+              "r2": 11,
+              "c2": 10
+            },
+            "z": 3,
+            "video": {
+              "systemDataSourceType": "mp4",
+              "alexandriaUrl": "https://video.squarespace-cdn.com/content/v1/68c542d0f70715049dfb1500/6e8318d6-843d-49ed-b596-b261bb2da218/{variant}",
+              "durationSeconds": 71.9,
+              "aspectRatio": 0.5625,
+              "id": "69e6047caf263b065b7e59e6",
+              "systemDataVariants": "1080:1920,360:640",
+              "alexandriaLibraryId": "68c542d0f70715049dfb1500",
+              "audioCodec": "aac",
+              "systemDataId": "6e8318d6-843d-49ed-b596-b261bb2da218",
+              "videoCodec": "h264"
+            },
+            "settings": {
+              "autoPlay": false,
+              "controls": "full",
+              "loop": false,
+              "muted": false
+            },
+            "poster": null,
+            "embed": null
+          },
+          {
+            "type": "image",
+            "id": "41145093d46fb76b8efe",
+            "desktop": {
+              "r1": 22,
+              "c1": 6,
+              "r2": 54,
+              "c2": 22
+            },
+            "mobile": {
+              "r1": 11,
+              "c1": 2,
+              "r2": 18,
+              "c2": 10
+            },
+            "z": 0,
+            "assetId": "88cf6131-7825-4c4d-ac03-0ccabc44f7a1",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 16,
+              "rows": 32,
+              "w": 788.4,
+              "h": 1168.8,
+              "ar": 0.6745,
+              "widthPct": 0.6232
+            }
+          },
+          {
+            "type": "image",
+            "id": "yui_3_17_2_1_1779619433483_2764",
+            "desktop": {
+              "r1": 55,
+              "c1": 6,
+              "r2": 70,
+              "c2": 22
+            },
+            "mobile": {
+              "r1": 18,
+              "c1": 2,
+              "r2": 24,
+              "c2": 10
+            },
+            "z": 6,
+            "assetId": "d6e3175c-f004-4c42-a45b-c1d71acf39ed",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "center",
+            "link": null,
+            "box": {
+              "cols": 16,
+              "rows": 15,
+              "w": 788.4,
+              "h": 542,
+              "ar": 1.4544,
+              "widthPct": 0.6232
+            }
+          },
+          {
+            "type": "image",
+            "id": "yui_3_17_2_1_1779619433483_3139",
+            "desktop": {
+              "r1": 71,
+              "c1": 6,
+              "r2": 87,
+              "c2": 22
+            },
+            "mobile": {
+              "r1": 24,
+              "c1": 2,
+              "r2": 30,
+              "c2": 10
+            },
+            "z": 7,
+            "assetId": "8a08e3a6-5fd0-40cd-acc9-be4635f3c41e",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "center",
+            "link": null,
+            "box": {
+              "cols": 16,
+              "rows": 16,
+              "w": 788.4,
+              "h": 578.9,
+              "ar": 1.3618,
+              "widthPct": 0.6232
+            }
+          },
+          {
+            "type": "image",
+            "id": "yui_3_17_2_1_1779619433483_1504",
+            "desktop": {
+              "r1": 87,
+              "c1": 6,
+              "r2": 102,
+              "c2": 22
+            },
+            "mobile": {
+              "r1": 30,
+              "c1": 2,
+              "r2": 36,
+              "c2": 10
+            },
+            "z": 4,
+            "assetId": "c2a0a044-1fbd-438b-9ed9-22ccd07dbd1f",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "center",
+            "link": null,
+            "box": {
+              "cols": 16,
+              "rows": 15,
+              "w": 788.4,
+              "h": 542,
+              "ar": 1.4544,
+              "widthPct": 0.6232
+            }
+          },
+          {
+            "type": "image",
+            "id": "yui_3_17_2_1_1779619433483_2069",
+            "desktop": {
+              "r1": 103,
+              "c1": 6,
+              "r2": 118,
+              "c2": 22
+            },
+            "mobile": {
+              "r1": 36,
+              "c1": 2,
+              "r2": 42,
+              "c2": 10
+            },
+            "z": 5,
+            "assetId": "9fea1fae-ed6d-490f-b528-57ca42356662",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "center",
+            "link": null,
+            "box": {
+              "cols": 16,
+              "rows": 15,
+              "w": 788.4,
+              "h": 542,
+              "ar": 1.4544,
+              "widthPct": 0.6232
+            }
+          },
+          {
+            "type": "image",
+            "id": "bfc7f62b23505fdfe2dd",
+            "desktop": {
+              "r1": 118,
+              "c1": 6,
+              "r2": 144,
+              "c2": 22
+            },
+            "mobile": {
+              "r1": 42,
+              "c1": 2,
+              "r2": 49,
+              "c2": 10
+            },
+            "z": 1,
+            "assetId": "59443bd0-4bba-465e-bdd6-c546ca5ab93d",
+            "alt": "",
+            "focal": "0.5,0.5",
+            "stretched": false,
+            "position": "left",
+            "link": null,
+            "box": {
+              "cols": 16,
+              "rows": 26,
+              "w": 788.4,
+              "h": 947.6,
+              "ar": 0.8319,
+              "widthPct": 0.6232
+            }
+          }
+        ],
+        "height": "small",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/work",
+    "title": "Yoon Lee",
+    "fullTitle": "Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "collection",
+        "collectionType": "portfolio-hover-static",
+        "background": {
+          "assetId": "a6af712b-763f-4d72-bacf-3216e104eb53",
+          "alt": "",
+          "focal": "0.5796812749003984,0.6240390024376523"
+        },
+        "overlayOpacity": 0.15,
+        "sectionHeight": "section-height--medium",
+        "hover": {
+          "controller": "PortfolioHover",
+          "variant-hover-static": "",
+          "first-section-padding-override": "",
+          "animation-role": "section"
+        },
+        "items": [],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/portfolio-3",
+    "title": "Exhibitions",
+    "fullTitle": "Exhibitions — Yoon Lee",
+    "description": "",
+    "ogImage": null,
+    "sections": [
+      {
+        "type": "collection",
+        "collectionType": "portfolio-index-background",
+        "background": null,
+        "overlayOpacity": 0.15,
+        "sectionHeight": "section-height--medium",
+        "hover": {
+          "controller": "PortfolioHover",
+          "variant-hover-cover": "",
+          "first-section-padding-override": "",
+          "animation-role": "section"
+        },
+        "items": [
+          {
+            "title": "From Mud to Bloom (2025)",
+            "href": "/portfolio-3/project-one-h346n-mnen4-mbttp",
+            "image": {
+              "assetId": "bd5ed418-18ba-47d0-9ccf-13d68b5e54b9",
+              "alt": "From Mud to Bloom (2025)",
+              "focal": "0.5,0.5"
+            }
+          },
+          {
+            "title": "Chrysalis (2024)",
+            "href": "/portfolio-3/project-one-h346n-mnen4",
+            "image": {
+              "assetId": "45c72b5f-a61d-4525-832c-6fbde2ae3576",
+              "alt": "Chrysalis (2024)",
+              "focal": "0.5,0.5"
+            }
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": "light"
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/portfolio-3/project-one-h346n-mnen4",
+    "title": "Chrysalis (2024)",
+    "fullTitle": "Chrysalis (2024) — Yoon Lee",
+    "description": "",
+    "ogImage": "http://static1.squarespace.com/static/68c542d0f70715049dfb1500/6936740a6d6d11238d1d0910/6936740a6d6d11238d1d0928/1769164717733/DSC_3326.jpg?format=1500w",
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 11,
+        "rowsMobile": 22,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "88b388505f53cf0fb512",
+            "desktop": {
+              "r1": 1,
+              "c1": 5,
+              "r2": 12,
+              "c2": 23
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 23,
+              "c2": 10
+            },
+            "z": 0,
+            "html": "<h2 class=\"ta-center\">Chrysalis</h2><p><em>Chrysalis </em>explores the theme of protection through two bodies of work, highlighting the contrast between nurturing environments and the cold realities outside of the cocoon. Mixed-media and sculptural paintings visualize protection in nature, such as a cocoon and bird nest, and a relationship between mother and baby animals to depict maternal instincts and love. In contrast, I also portray myself in the real-life environment of the restaurant I used to work in, encircled by impersonal, cold objects. </p><p>During my time in high school, when my father was severely ill, I was apart from my family for nearly 3 years. Their absence, and the missing love and protection, led me to anxiety and depression. The word chrysalis defines a stage of growth – a hard case that protects a moth or butterfly as it turns into an adult. <em>Chrysalis </em>reflects the lack of family protection I experienced and how it continues to affect my adulthood.</p>"
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-grid",
+        "props": {
+          "aspectRatio": "widescreen",
+          "scrollAnimation": "site-default",
+          "gutter": 50,
+          "numColumns": 1,
+          "width": "inset",
+          "lightboxEnabled": false
+        },
+        "items": [
+          {
+            "assetId": "b9e5700e-360e-4c14-8e9d-4cb1c4d3bdcb",
+            "alt": "carring blossom-4.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "45c72b5f-a61d-4525-832c-6fbde2ae3576",
+            "alt": "DSC_3326.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "f44ca8e7-3df3-415b-8868-4e263a19d5a1",
+            "alt": "carring blossom-9.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "2230b3ba-a2f3-4a32-a6ca-355f464068c3",
+            "alt": "carring blossom-13.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "65e596b0-cb3f-43fe-8af2-7f8ba04834ce",
+            "alt": "carring blossom-2.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "f45ff41d-a23e-43b0-ac0a-418d06d76200",
+            "alt": "carring blossom.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "8aa0fd5c-93d4-481a-b681-411e042b3258",
+            "alt": "carring blossom-7.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "e6232af7-6122-48ba-8892-9378f68f4a18",
+            "alt": "carring blossom-8.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "a557d85b-3680-4a97-9f3b-b3a2e12dd8b6",
+            "alt": "DSC_3293.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "693a1691-7a3d-43ad-b908-0a1691732baf",
+            "alt": "DSC_3297.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "3808c427-96af-486f-a35d-14918bc03d23",
+            "alt": "DSC_3295.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "a3ebda67-b49d-4f99-b7f1-bd6b2d5d31ec",
+            "alt": "DSC_3323.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "adf80cda-6fe3-4169-a5f4-c7f53e8d62c3",
+            "alt": "DSC_3320.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "c0429893-a7d0-45ec-88b0-2a9ddcae6f77",
+            "alt": "DSC_3331.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "3e605ce0-183a-4c1a-9479-d22a4e90ca94",
+            "alt": "DSC_3309.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "1765180534994-PW34LHYM5L05FPZLW1S4",
+            "alt": "DSC_3312.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "1765180549022-BVEYFEM48SM8ODTQC88F",
+            "alt": "DSC_3311.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "68ac0f4b-cf2a-4ba4-95fa-504f8461ecf5",
+            "alt": "DSC_3308.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  },
+  {
+    "path": "/portfolio-3/project-one-h346n-mnen4-mbttp",
+    "title": "From Mud to Bloom (2025)",
+    "fullTitle": "From Mud to Bloom (2025) — Yoon Lee",
+    "description": "",
+    "ogImage": "http://static1.squarespace.com/static/68c542d0f70715049dfb1500/6936740a6d6d11238d1d0910/693674d94d39993ff35a6be3/1769165651000/DSC_9930.jpg?format=1500w",
+    "sections": [
+      {
+        "type": "layout",
+        "rowsDesktop": 13,
+        "rowsMobile": 22,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "75f763d367ac3ea3c2f9",
+            "desktop": {
+              "r1": 1,
+              "c1": 5,
+              "r2": 14,
+              "c2": 23
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 23,
+              "c2": 10
+            },
+            "z": 0,
+            "html": "<h2 class=\"ta-center\">From Mud to Bloom</h2><p><em>From Mud to Bloom</em> explores the theme of maternal connection between mother and child, using traditional Korean painting (Minhwa), acrylic paintings, and ceramic sculptures. The exhibition weaves images of nature with scenes from both historical and contemporary life, exploring how the human experience of caring and protection is mirrored in nature's own cycles.</p><p>The lotus flower, born from the mud, is a central motif of this work, embodying sacrifice, resilience, and purity. In Korean folk stories, the female figure often sacrifices herself for the benefit of the family and is reborn through the lotus, a transformation that reflects both suffering and renewal.</p><p>This classic fairy tale of female self-effacement bridges cultural memory with present realities, inviting viewers to reflect on how feminine love can endure, transform, and bloom across generations. </p><p>The exhibition has also been covered by the <a href=\"https://dailytrojan.com/2025/12/02/from-mud-to-bloom-explores-feminine-sacrifice-through-korean-culture/\" rel=\"noopener\" target=\"_blank\">Daily Trojan</a>, where you can find interviews on behind the process.</p>"
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-grid",
+        "props": {
+          "aspectRatio": "widescreen",
+          "scrollAnimation": "site-default",
+          "gutter": 50,
+          "numColumns": 1,
+          "width": "inset",
+          "lightboxEnabled": false
+        },
+        "items": [
+          {
+            "assetId": "51061785-c20a-4a54-91b1-800ac32dfbea",
+            "alt": "DSC_9930.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "c84cdbc8-1342-47b3-b4f2-bb169c5fa12f",
+            "alt": "DSC_9951.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "17589906-6528-4deb-b4f5-94007cab59f3",
+            "alt": "DSC_9924.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "05092123-70fd-434e-b274-42f5e52da061",
+            "alt": "DSC_9939.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "98ad6e9f-6363-4973-9e89-33a4431cbb3f",
+            "alt": "DSC_9841.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "1765178545623-CXV3Y2UMKP5E3FE8LQE2",
+            "alt": "DSC_9867.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-slideshow",
+        "props": {
+          "transition": "site-default",
+          "controlsLocation": "side",
+          "autoplayEnabled": false,
+          "slideDurationMs": 5000,
+          "galleryHeight": 75,
+          "galleryWidth": 100,
+          "thumbnailsEnabled": false
+        },
+        "items": [
+          {
+            "assetId": "1767605889853-6496ORO1RMIOLLE7W1ZK",
+            "alt": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": "What is Left Behind?, 2025, Ceramic, 19 x 6 x 15 in"
+          },
+          {
+            "assetId": "d03d0b36-9960-4d37-942e-e2141cf17ffe",
+            "alt": "what is left behind--0430.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "8526e70d-4103-485a-8e56-a0c189a2ad48",
+            "alt": "carring blossom-8.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "4eb1d11d-54f6-41ba-8848-2e34cce15868",
+            "alt": "what is left behind--0433.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "ffd2cb24-d35a-43ae-884b-43ced3f11cd7",
+            "alt": "carring blossom-9.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "26131613-8768-46f5-bb57-35d9bbe0c372",
+            "alt": "what is left behind--0381.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "83e03653-0e8a-4083-af17-d0268a87a7a0",
+            "alt": "carring blossom.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "963f5bbc-a306-410d-a638-a85db6d82c51",
+            "alt": "carring blossom-2.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "d2b89de9-98ee-4b68-9993-3e091dd240de",
+            "alt": "what is left behind--0389.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-slideshow",
+        "props": {
+          "transition": "site-default",
+          "controlsLocation": "side",
+          "autoplayEnabled": false,
+          "slideDurationMs": 5000,
+          "galleryHeight": 75,
+          "galleryWidth": 100,
+          "thumbnailsEnabled": false
+        },
+        "items": [
+          {
+            "assetId": "a6790617-5d4b-48d2-b21a-812fb2a809c8",
+            "alt": "Last Bloom, 2025, Korean Pigment on Korean, Mulberry Paper, 24 x 20 in",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": "Last Bloom, 2025, Korean Pigment on Korean, Mulberry Paper, 24 x 20 in"
+          },
+          {
+            "assetId": "f150c7b9-8db1-4e9a-8173-d9d9b5843528",
+            "alt": "carring blossom.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "17479e5e-a469-483d-a73a-c8e1def18bcc",
+            "alt": "last b-0438.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "926d49bb-373e-404b-9570-8fb2760d0ca5",
+            "alt": "last b-0437.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "b00f45c5-9f4e-498b-8f2a-910e0869dd1f",
+            "alt": "last b-0436.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "8fd77a99-85b4-4552-b965-8728f95d106e",
+            "alt": "last b-0439.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-slideshow",
+        "props": {
+          "transition": "fade",
+          "controlsLocation": "side",
+          "autoplayEnabled": false,
+          "slideDurationMs": 5000,
+          "galleryHeight": 75,
+          "galleryWidth": 100,
+          "thumbnailsEnabled": false
+        },
+        "items": [
+          {
+            "assetId": "88ae191a-4ceb-4d33-8e01-891b3901a71c",
+            "alt": " Untitled, 2025, Acrylic on Wood Panel, 24 x 18 in",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": "Untitled, 2025, Acrylic on Wood Panel, 24 x 18 in"
+          },
+          {
+            "assetId": "badab5e8-f6b4-4734-a589-b8d00fb257e8",
+            "alt": "carring blossom-6 copy.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "a23647da-33ed-41e6-9878-75f24cd56b71",
+            "alt": "seed -0454.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "2454866b-93c8-4177-ad35-56ccf8ef10b0",
+            "alt": "seed -0449.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "e08047e6-32fa-4ae5-b305-3c0006c59fc1",
+            "alt": "seed -0450.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "53879bb3-dfbd-47a9-b3e7-27d178270e76",
+            "alt": "seed -0604.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-slideshow",
+        "props": {
+          "transition": "site-default",
+          "controlsLocation": "side",
+          "autoplayEnabled": false,
+          "slideDurationMs": 5000,
+          "galleryHeight": 75,
+          "galleryWidth": 100,
+          "thumbnailsEnabled": false
+        },
+        "items": [
+          {
+            "assetId": "92d4705a-6072-4d67-98ff-39e1bc850828",
+            "alt": "Did I Jump, or Was I Pushed to be a Filial Daughter?, 2025, Korean Pigment on Korean Mulberry Paper, 15 x 58 in each",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": "Did I Jump, or Was I Pushed to be a Filial Daughter?, 2025, Korean Pigment on Korean Mulberry Paper, 15 x 58 in each"
+          },
+          {
+            "assetId": "4af8e6bd-6121-43a8-87d4-56dfb317405f",
+            "alt": "carring blossom-3.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "a4e48069-4c75-409c-bf23-f7ef67949fde",
+            "alt": "carring blossom-5.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "18eeca90-71b9-4f78-8a6a-551fe3ae31c0",
+            "alt": "carring blossom-4.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "7d3ce3a8-3904-44df-83ae-07bcb6b2f9ab",
+            "alt": "족자-9915.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "3830ffd0-9131-4a2c-8326-7fba86d9cf36",
+            "alt": "carring blossom-2.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "06a846fd-fab8-40d3-b3ad-1e77c5cd2918",
+            "alt": "carring blossom-7.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-slideshow",
+        "props": {
+          "transition": "site-default",
+          "controlsLocation": "side",
+          "autoplayEnabled": false,
+          "slideDurationMs": 5000,
+          "galleryHeight": 75,
+          "galleryWidth": 100,
+          "thumbnailsEnabled": false
+        },
+        "items": [
+          {
+            "assetId": "4303af2d-b823-4d5e-aebd-d4d89fa54e49",
+            "alt": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": "The Weight of Blossom, 2025, Ceramic, 12 x 12 x 30 in"
+          },
+          {
+            "assetId": "9f5d64f7-4f04-4597-b306-92a6479ef89e",
+            "alt": "DSC_9839.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "232cec2b-89bd-4137-b464-53e2151915ba",
+            "alt": "DSC_9824.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "ae1619a2-04b6-4b43-b776-297fb1e7e350",
+            "alt": "what is left behind--0484.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "f94a3c7c-c2e6-4af7-b274-5fef3d826a58",
+            "alt": "족자-0478.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "3f9ee7ec-02ad-4598-9d7b-d5182f31c290",
+            "alt": "족자-0468.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "5148666f-73fe-457f-a7e1-0f6ad46fa5c6",
+            "alt": "족자-0624.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "fa480050-4af4-4b57-9bcb-2ce3834b7d61",
+            "alt": "족자-9797.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-slideshow",
+        "props": {
+          "transition": "site-default",
+          "controlsLocation": "side",
+          "autoplayEnabled": false,
+          "slideDurationMs": 5000,
+          "galleryHeight": 75,
+          "galleryWidth": 100,
+          "thumbnailsEnabled": false
+        },
+        "items": [
+          {
+            "assetId": "4e4ab9dd-fa92-4339-8adf-c1f451313e81",
+            "alt": "Untitled, 2025, Acrylics and Color Pencils on Linen, 30 x 40 in",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": "Untitled, 2025, Acrylics and Color Pencils on Linen, 30 x 40 in"
+          },
+          {
+            "assetId": "f3ce21ef-f582-48b9-9f4b-d861e85e929e",
+            "alt": "carring blossom-9.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "be4de179-474d-430c-a5f3-919718c64386",
+            "alt": "carring blossom-8.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-slideshow",
+        "props": {
+          "transition": "site-default",
+          "controlsLocation": "side",
+          "autoplayEnabled": false,
+          "slideDurationMs": 5000,
+          "galleryHeight": 75,
+          "galleryWidth": 100,
+          "thumbnailsEnabled": false
+        },
+        "items": [
+          {
+            "assetId": "3ba9eac7-3ec0-43bc-8fe5-ff42d090478a",
+            "alt": "Untitled\n2025\nAcrylics, Charcoal, and Color Pencils on Linen\n30 x 40 in",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": "Untitled 2025 Acrylics, Charcoal, and Color Pencils on Linen 30 x 40 in"
+          },
+          {
+            "assetId": "43bf40cf-b538-4dff-9e54-f8aa7c8fd4bf",
+            "alt": "carring blossom-11.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "2508bdfe-1c9e-41b1-a8a4-6c4a70c48181",
+            "alt": "carring blossom-12.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "30e0dba0-a504-401f-b82c-b34554354d36",
+            "alt": "seed -0500.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "e048b9f6-b581-4d26-9ab0-5275059924ff",
+            "alt": "seed -0501.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "0f42496b-4afd-4491-b527-914da7d38738",
+            "alt": "seed -0503.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "707d8291-9013-4857-a7bf-74d97d265f5e",
+            "alt": "seed -0504.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-slideshow",
+        "props": {
+          "transition": "site-default",
+          "controlsLocation": "side",
+          "autoplayEnabled": false,
+          "slideDurationMs": 5000,
+          "galleryHeight": 75,
+          "galleryWidth": 100,
+          "thumbnailsEnabled": false
+        },
+        "items": [
+          {
+            "assetId": "7d3b8e98-c501-47eb-ae83-1a522c6134bf",
+            "alt": "Blue Tears, 2025, Oil on Wood, 16 x 20 in",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": "Blue Tears, 2025, Oil on Wood, 16 x 20 in"
+          },
+          {
+            "assetId": "bdf55d03-a92c-48d2-ac15-009ae24f8e72",
+            "alt": "carring blossom-2.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "1bad7a02-4df6-4392-ac52-62c195ac23c1",
+            "alt": "ㄴㄷㅁ-0420.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "9c100bbd-b29c-4c22-9a56-73ccff94b3fc",
+            "alt": "ㄴㄷㅁ-0418.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "234ea084-dd07-45be-8ade-f4895fb2e80c",
+            "alt": "ㄴㄷㅁ-0422.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "2c6d0f4e-f56b-4935-b43a-974686621a65",
+            "alt": "ㄴㄷㅁ-9890.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "gallery-slideshow",
+        "props": {
+          "transition": "site-default",
+          "controlsLocation": "side",
+          "autoplayEnabled": false,
+          "slideDurationMs": 5000,
+          "galleryHeight": 75,
+          "galleryWidth": 100,
+          "thumbnailsEnabled": false
+        },
+        "items": [
+          {
+            "assetId": "82acac48-1e1f-40e7-8c49-61c68f01c616",
+            "alt": "Karma, 2025, Ceramic, 24 x 16 x 53 in",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": "Karma, 2025, Ceramic, 24 x 16 x 53 in"
+          },
+          {
+            "assetId": "76ebb635-201c-4086-acbf-2f43b98e670f",
+            "alt": "carring blossom-3.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "9dd4f416-c3a5-4d2c-b510-cd2c425ff708",
+            "alt": "carring blossom copy.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "87017971-093a-45b3-b1d8-856416f671cb",
+            "alt": "carring blossom-3.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          },
+          {
+            "assetId": "f4698d90-03f1-4185-8569-09a66c81c731",
+            "alt": "carring blossom-13.jpg",
+            "focal": "0.5,0.5",
+            "href": null,
+            "caption": null
+          }
+        ],
+        "height": "medium",
+        "width": "wide",
+        "theme": null
+      },
+      {
+        "type": "layout",
+        "rowsDesktop": 3,
+        "rowsMobile": 2,
+        "blocks": [
+          {
+            "type": "text",
+            "id": "yui_3_17_2_1_1768721874125_1247033",
+            "desktop": {
+              "r1": 3,
+              "c1": 10,
+              "r2": 4,
+              "c2": 18
+            },
+            "mobile": {
+              "r1": 1,
+              "c1": 2,
+              "r2": 3,
+              "c2": 10
+            },
+            "z": 1,
+            "html": "<p class=\"ta-center\">© 2026 All rights reserved by Yoon Lee</p>"
+          }
+        ],
+        "height": "custom",
+        "width": "wide",
+        "theme": null
+      }
+    ]
+  }
+]

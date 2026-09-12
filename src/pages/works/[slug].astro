@@ -1,0 +1,136 @@
+---
+import { getCollection } from 'astro:content';
+import { getImage } from 'astro:assets';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Pic from '@/components/Pic.astro';
+import site from '@/data/site.json';
+import { media, dims } from '@/lib/media';
+
+export async function getStaticPaths() {
+  const works = await getCollection('works');
+  return works.map((work) => ({ params: { slug: work.id }, props: { work } }));
+}
+
+const { work } = Astro.props;
+const { title, year, details, blocks } = work.data;
+
+const pageTitle = `${title} (${year})`;
+const description = `${title}, ${year} — ${details.filter((d) => !/:$/.test(d)).join(', ')}. Artwork by Yoon Lee, Korean-born interdisciplinary artist based in Los Angeles.`;
+const firstImage = blocks.find((b) => b.type === 'image');
+const ogImage = media(work.data.cover ?? (firstImage && firstImage.type === 'image' ? firstImage.src : site.hero.src));
+
+// Structured-data images: optimised renditions, not the originals
+const ldImages = await Promise.all(
+  blocks.filter((b) => b.type === 'image').slice(0, 6).map(async (b) => {
+    const src = media((b as { src: string }).src);
+    const r = await getImage({ src, width: Math.min(1200, dims(src).width), format: 'webp', quality: 75, layout: 'none' });
+    return new URL(r.src, site.url).href;
+  })
+);
+
+const jsonLd = [
+  {
+    '@type': 'VisualArtwork',
+    name: title,
+    dateCreated: year,
+    artMedium: details[0],
+    ...(details[1] ? { size: details[1] } : {}),
+    creator: { '@type': 'Person', name: site.name, url: site.url },
+    url: `${site.url}/works/${work.id}/`,
+    image: ldImages,
+  },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Works', item: `${site.url}/works/` },
+      { '@type': 'ListItem', position: 2, name: title, item: `${site.url}/works/${work.id}/` },
+    ],
+  },
+];
+
+// sizes: each block declares its width as a fraction of the content column (94vw on desktop, capped at 2000px)
+const sizesFor = (w: number) => `(max-width: 767px) 88vw, min(${Math.round(w * 94)}vw, ${Math.round(w * 2000)}px)`;
+const stackWidths = [480, 768, 1080, 1440, 2000];
+let imgIndex = 0;
+---
+
+<BaseLayout title={pageTitle} description={description} ogImage={ogImage} ogAlt={`${title} (${year}) by Yoon Lee`} jsonLd={jsonLd}>
+  <article class="work container">
+    <header class="work__caption" data-reveal>
+      <h1 class="work__title"><em>{title}</em></h1>
+      <p class="work__year">{year}</p>
+      {details.map((line) => <p>{line}</p>)}
+    </header>
+
+    <div class="work__stack">
+      {blocks.map((block) => {
+        if (block.type === 'image') {
+          const img = media(block.src);
+          const idx = imgIndex++;
+          const cropped = !!block.crop;
+          return (
+            <figure class:list={['work__figure', { 'work__figure--crop': cropped }]} style={`--w:${block.width};${cropped ? `--ar:${block.crop};` : ''}`} data-reveal>
+              <Pic
+                src={img}
+                alt={block.alt}
+                sizes={sizesFor(block.width)}
+                widths={stackWidths}
+                priority={idx === 0}
+                class="work__img"
+                position={block.focal ? `${(block.focal[0] * 100).toFixed(1)}% ${(block.focal[1] * 100).toFixed(1)}%` : undefined}
+              />
+            </figure>
+          );
+        }
+        if (block.type === 'video') {
+          return (
+            <figure class="work__figure work__figure--video" style={`--w:${block.width};--ar:${block.aspect};`} data-reveal>
+              <video
+                src={block.src}
+                poster={block.poster}
+                controls={block.controls}
+                autoplay={block.autoplay}
+                loop={block.loop}
+                muted={block.muted || block.autoplay}
+                playsinline
+                preload="metadata"
+                aria-label={`${title} — video`}
+              />
+            </figure>
+          );
+        }
+        return <div class="work__text prose" data-reveal set:html={block.html} />;
+      })}
+    </div>
+
+    <nav class="work__back" aria-label="Back">
+      <a href="/works/">← Works</a>
+    </nav>
+  </article>
+</BaseLayout>
+
+<style>
+  .work { padding-top: var(--section-pad); }
+
+  .work__caption { text-align: center; margin: 0 auto clamp(32px, 3.5vw, 56px); max-width: 60ch; }
+  .work__caption p, .work__caption h1 { margin: 0 0 1rem; }
+  .work__caption :last-child { margin-bottom: 0; }
+  .work__title { font-size: var(--fs-body); line-height: var(--lh-body); margin: 0; font-weight: 400; }
+
+  .work__stack { display: flex; flex-direction: column; align-items: center; gap: var(--stack-gap); }
+  .work__figure { width: calc(var(--w, 1) * 100%); }
+  .work__figure--crop { aspect-ratio: var(--ar); overflow: hidden; }
+  .work__figure--crop :global(.work__img) { width: 100%; height: 100%; object-fit: cover; }
+  .work__figure :global(.work__img) { width: 100%; }
+  .work__figure--video { aspect-ratio: var(--ar); }
+  .work__figure--video video { width: 100%; height: 100%; background: #000; }
+  .work__text { width: min(100%, 60ch); text-align: center; }
+
+  .work__back { padding: var(--section-pad) 0 0; text-align: center; }
+  .work__back a { border-bottom: 1px solid currentColor; padding-bottom: 1px; transition: opacity 0.25s var(--ease); }
+  .work__back a:hover { opacity: 0.6; }
+
+  @media (max-width: 767px) {
+    .work__figure { width: 100%; }
+  }
+</style>

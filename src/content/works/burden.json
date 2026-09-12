@@ -1,0 +1,64 @@
+{
+  "title": "Burden",
+  "year": "2025",
+  "details": [
+    "Felt, Wool, Stockings, and Strings",
+    "48 x 30 x 10 inches"
+  ],
+  "order": 5,
+  "listed": true,
+  "cover": "472890910-1010492967782606-2353419013385629839-n.jpg",
+  "sqsPath": "/new-page-71-1",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "472890910-1010492967782606-2353419013385629839-n.jpg",
+      "alt": "Burden (2025) by Yoon Lee, Felt, Wool, Stockings, and Strings — image 1 of 5",
+      "width": 0.413
+    },
+    {
+      "type": "image",
+      "src": "img-1338-2.jpg",
+      "alt": "Burden (2025) by Yoon Lee, Felt, Wool, Stockings, and Strings — image 2 of 5",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "img-1337.jpg",
+      "alt": "Burden (2025) by Yoon Lee, Felt, Wool, Stockings, and Strings — image 3 of 5",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "img-1336-2.jpg",
+      "alt": "Burden (2025) by Yoon Lee, Felt, Wool, Stockings, and Strings — image 4 of 5",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "img-1334.jpg",
+      "alt": "Burden (2025) by Yoon Lee, Felt, Wool, Stockings, and Strings — image 5 of 5",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

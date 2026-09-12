@@ -1,0 +1,103 @@
+---
+import { getCollection } from 'astro:content';
+import { getImage } from 'astro:assets';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Pic from '@/components/Pic.astro';
+import Slideshow from '@/components/Slideshow.astro';
+import site from '@/data/site.json';
+import { media, dims } from '@/lib/media';
+
+export async function getStaticPaths() {
+  const exhibitions = await getCollection('exhibitions');
+  return exhibitions.map((exhibition) => ({ params: { slug: exhibition.id }, props: { exhibition } }));
+}
+
+const { exhibition } = Astro.props;
+const { title, year, statementHtml, installationGrid, installationViews, artworks } = exhibition.data;
+
+const plain = statementHtml.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+const description = plain.slice(0, 280).replace(/\s\S*$/, '') + '…';
+const cover = media(exhibition.data.cover.src);
+const coverLd = await getImage({ src: cover, width: Math.min(1200, dims(cover).width), format: 'webp', quality: 75, layout: 'none' });
+const aspect = { widescreen: '16 / 9', square: '1 / 1', standard: '4 / 3', auto: 'auto' }[installationGrid.aspect];
+
+const jsonLd = [
+  {
+    '@type': 'ExhibitionEvent',
+    name: title,
+    startDate: year,
+    description: plain,
+    url: `${site.url}/exhibitions/${exhibition.id}/`,
+    image: new URL(coverLd.src, site.url).href,
+    performer: { '@type': 'Person', name: site.name, url: site.url },
+    organizer: { '@type': 'Person', name: site.name, url: site.url },
+    workFeatured: artworks.filter((a) => a.caption).map((a) => ({ '@type': 'VisualArtwork', name: a.caption!.split(',')[0], creator: { '@type': 'Person', name: site.name } })),
+  },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Exhibitions', item: `${site.url}/exhibitions/` },
+      { '@type': 'ListItem', position: 2, name: title, item: `${site.url}/exhibitions/${exhibition.id}/` },
+    ],
+  },
+];
+---
+
+<BaseLayout title={`${title} (${year})`} description={description} ogImage={cover} ogAlt={exhibition.data.cover.alt} jsonLd={jsonLd}>
+  <article class="exhibition">
+    <header class="exhibition__statement container section" data-reveal>
+      <h1>{title}</h1>
+      <div class="prose" set:html={statementHtml} />
+    </header>
+
+    {installationViews.length > 0 && (
+      <section class="exhibition__views container" aria-label="Installation views" style={`--cols:${installationGrid.columns};--gap:${installationGrid.gutter}px;--ar:${aspect}`} data-reveal-group="80">
+        {installationViews.map((v, i) => (
+          <figure class="exhibition__view" data-reveal>
+            <Pic src={media(v.src)} alt={v.alt} sizes={`(max-width: 767px) 88vw, min(${Math.round(94 / installationGrid.columns)}vw, ${Math.round(2000 / installationGrid.columns)}px)`} widths={[480, 768, 1080, 1440, 2000]} priority={i === 0} class="exhibition__view-img" />
+          </figure>
+        ))}
+      </section>
+    )}
+
+    {artworks.length > 0 && (
+      <section class="exhibition__artworks" aria-label="Works in the exhibition">
+        {artworks.map((a, i) => (
+          <div class="exhibition__artwork" data-reveal>
+            <Slideshow slides={a.slides} label={a.caption ?? `${title} — artwork ${i + 1}`} transition={a.transition} />
+          </div>
+        ))}
+      </section>
+    )}
+
+    <nav class="exhibition__back" aria-label="Back">
+      <a href="/exhibitions/">← Exhibitions</a>
+    </nav>
+  </article>
+</BaseLayout>
+
+<style>
+  .exhibition__statement { width: min(75%, var(--max-w)); padding-block: var(--section-pad) clamp(24px, 3vw, 48px); }
+  .exhibition__statement h1 { font-size: var(--fs-h2); text-align: center; margin-bottom: 1em; }
+
+  .exhibition__views {
+    display: grid;
+    grid-template-columns: repeat(var(--cols, 1), minmax(0, 1fr));
+    gap: var(--gap, 50px);
+    padding-block: clamp(24px, 3vw, 48px);
+  }
+  .exhibition__view { aspect-ratio: var(--ar, 16 / 9); overflow: hidden; }
+  .exhibition__views :global(.exhibition__view-img) { width: 100%; height: 100%; object-fit: cover; }
+
+  .exhibition__artworks { display: grid; gap: clamp(24px, 3vw, 48px); padding-block: clamp(24px, 3vw, 48px); }
+  .exhibition__artwork { padding-inline: var(--gutter); }
+
+  .exhibition__back { padding: var(--section-pad) var(--gutter) 0; text-align: center; }
+  .exhibition__back a { border-bottom: 1px solid currentColor; padding-bottom: 1px; transition: opacity 0.25s var(--ease); }
+  .exhibition__back a:hover { opacity: 0.6; }
+
+  @media (max-width: 767px) {
+    .exhibition__statement { width: min(100% - 2 * var(--gutter), var(--max-w)); }
+    .exhibition__views { gap: 6vw; }
+  }
+</style>

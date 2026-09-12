@@ -1,0 +1,47 @@
+{
+  "title": "Vulnerable",
+  "year": "2024",
+  "details": [
+    "Aqua resin, mulberry paper, and photos",
+    "11 x 11 x 8 inches"
+  ],
+  "order": 911,
+  "listed": false,
+  "cover": "img-0886-2.jpg",
+  "sqsPath": "/new-page-71-1-2-1",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "img-0886-2.jpg",
+      "alt": "Vulnerable (2024) by Yoon Lee, Aqua resin, mulberry paper, and photos — image 1 of 3",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "img-0952.jpg",
+      "alt": "Vulnerable (2024) by Yoon Lee, Aqua resin, mulberry paper, and photos — image 2 of 3",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "img-0955.jpg",
+      "alt": "Vulnerable (2024) by Yoon Lee, Aqua resin, mulberry paper, and photos — image 3 of 3",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "What Carries Behind",
+  "year": "2026",
+  "details": [
+    "Acrylic on canvas, wood, and ceramic",
+    "60 x 64 in",
+    "Video of making folding screen frames:"
+  ],
+  "order": 1,
+  "listed": true,
+  "cover": "dsc-4072-282-29.jpg",
+  "sqsPath": "/new-page-71-5-5",
+  "blocks": [
+    {
+      "type": "video",
+      "src": "/video/what-carries-behind.mp4",
+      "poster": "/video/what-carries-behind-poster.jpg",
+      "aspect": 0.5625,
+      "width": 0.62,
+      "controls": true,
+      "autoplay": false,
+      "loop": false,
+      "muted": false
+    },
+    {
+      "type": "image",
+      "src": "yoon-88cf61.jpg",
+      "alt": "What Carries Behind (2026) by Yoon Lee, Acrylic on canvas, wood, and ceramic — image 1 of 6",
+      "width": 0.623
+    },
+    {
+      "type": "image",
+      "src": "dsc-4072-2.jpg",
+      "alt": "What Carries Behind (2026) by Yoon Lee, Acrylic on canvas, wood, and ceramic — image 2 of 6",
+      "width": 0.623
+    },
+    {
+      "type": "image",
+      "src": "dsc-4087.jpg",
+      "alt": "What Carries Behind (2026) by Yoon Lee, Acrylic on canvas, wood, and ceramic — image 3 of 6",
+      "width": 0.623
+    },
+    {
+      "type": "image",
+      "src": "dsc-4078-1-c2a0a0.jpg",
+      "alt": "What Carries Behind (2026) by Yoon Lee, Acrylic on canvas, wood, and ceramic — image 4 of 6",
+      "width": 0.623
+    },
+    {
+      "type": "image",
+      "src": "dsc-4073.jpg",
+      "alt": "What Carries Behind (2026) by Yoon Lee, Acrylic on canvas, wood, and ceramic — image 5 of 6",
+      "width": 0.623
+    },
+    {
+      "type": "image",
+      "src": "img-0286.jpg",
+      "alt": "What Carries Behind (2026) by Yoon Lee, Acrylic on canvas, wood, and ceramic — image 6 of 6",
+      "width": 0.623
+    }
+  ]
+}

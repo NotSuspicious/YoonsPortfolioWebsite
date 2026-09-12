@@ -1,0 +1,50 @@
+---
+/**
+ * Responsive image. Wraps astro:assets <Image>: generates a WebP srcset at build time,
+ * lazy-loads by default and lets the caller declare the rendered width via `sizes`.
+ */
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import { dims } from '@/lib/media';
+
+interface Props {
+  src: ImageMetadata;
+  alt: string;
+  /** CSS `sizes` — how wide the image renders, e.g. "(max-width: 767px) 100vw, 60vw" */
+  sizes: string;
+  /** Above-the-fold image: eager + high fetch priority. */
+  priority?: boolean;
+  widths?: number[];
+  quality?: number;
+  class?: string;
+  style?: string;
+  /** object-position for cropped images (e.g. "58% 62%"). */
+  position?: string;
+}
+
+const { src, alt, sizes, priority = false, widths, quality = 78, class: className, style, position } = Astro.props;
+// Never generate candidates wider than the source (Astro would refuse to upscale anyway).
+const { width: srcWidth, height: srcHeight } = dims(src);
+const ws = (widths ?? [480, 768, 1080, 1440, 2000]).filter((w) => w <= srcWidth);
+if (!ws.length) ws.push(srcWidth);
+// The largest candidate doubles as the fallback `src` (otherwise Astro emits a full-size rendition).
+const maxW = ws[ws.length - 1];
+const maxH = Math.round((maxW / srcWidth) * srcHeight);
+---
+
+<Image
+  src={src}
+  alt={alt}
+  width={maxW}
+  height={maxH}
+  widths={ws}
+  sizes={sizes}
+  format="webp"
+  quality={quality}
+  layout="constrained"
+  loading={priority ? 'eager' : 'lazy'}
+  fetchpriority={priority ? 'high' : 'auto'}
+  decoding={priority ? 'sync' : 'async'}
+  class={className}
+  style={position ? `${style ?? ''};object-position:${position}` : style}
+/>

@@ -1,0 +1,44 @@
+{
+  "title": "Caring",
+  "year": "2026",
+  "details": [
+    "Ceramic",
+    "5 x 6 × 13 in"
+  ],
+  "order": 919,
+  "listed": false,
+  "cover": "breath-5755.jpg",
+  "sqsPath": "/new-page-71-5-4",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "breath-5755.jpg",
+      "alt": "Caring (2026) by Yoon Lee, Ceramic — image 1 of 5",
+      "width": 0.544
+    },
+    {
+      "type": "image",
+      "src": "breath-5759.jpg",
+      "alt": "Caring (2026) by Yoon Lee, Ceramic — image 2 of 5",
+      "width": 0.544
+    },
+    {
+      "type": "image",
+      "src": "breath-5748.jpg",
+      "alt": "Caring (2026) by Yoon Lee, Ceramic — image 3 of 5",
+      "width": 0.544
+    },
+    {
+      "type": "image",
+      "src": "breath-5765.jpg",
+      "alt": "Caring (2026) by Yoon Lee, Ceramic — image 4 of 5",
+      "width": 0.544
+    },
+    {
+      "type": "image",
+      "src": "breath-5763.jpg",
+      "alt": "Caring (2026) by Yoon Lee, Ceramic — image 5 of 5",
+      "width": 0.544
+    }
+  ]
+}

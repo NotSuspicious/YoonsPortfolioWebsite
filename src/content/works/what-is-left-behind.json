@@ -1,0 +1,80 @@
+{
+  "title": "What is Left Behind?",
+  "year": "2025",
+  "details": [
+    "Ceramic",
+    "19 x 6 x 15 in"
+  ],
+  "order": 4,
+  "listed": true,
+  "cover": "carring-blossom-cc6022.jpg",
+  "sqsPath": "/new-page-71-5",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "what-is-left-behind-0374.jpg",
+      "alt": "What is Left Behind? (2025) by Yoon Lee, Ceramic — image 1 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "carring-blossom-6ce4e0.jpg",
+      "alt": "What is Left Behind? (2025) by Yoon Lee, Ceramic — image 2 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "what-is-left-behind-0389.jpg",
+      "alt": "What is Left Behind? (2025) by Yoon Lee, Ceramic — image 3 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "what-is-left-behind-0428.jpg",
+      "alt": "What is Left Behind? (2025) by Yoon Lee, Ceramic — image 4 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "what-is-left-behind-0433.jpg",
+      "alt": "What is Left Behind? (2025) by Yoon Lee, Ceramic — image 5 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "what-is-left-behind-0381.jpg",
+      "alt": "What is Left Behind? (2025) by Yoon Lee, Ceramic — image 6 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

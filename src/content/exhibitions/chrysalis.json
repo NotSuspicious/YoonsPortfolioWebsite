@@ -1,0 +1,91 @@
+{
+  "title": "Chrysalis",
+  "year": "2024",
+  "order": 2,
+  "cover": {
+    "src": "dsc-3326.jpg",
+    "alt": "Chrysalis (2024), Yoon Lee — installation view"
+  },
+  "statementHtml": "<p><em>Chrysalis </em>explores the theme of protection through two bodies of work, highlighting the contrast between nurturing environments and the cold realities outside of the cocoon. Mixed-media and sculptural paintings visualize protection in nature, such as a cocoon and bird nest, and a relationship between mother and baby animals to depict maternal instincts and love. In contrast, I also portray myself in the real-life environment of the restaurant I used to work in, encircled by impersonal, cold objects. </p><p>During my time in high school, when my father was severely ill, I was apart from my family for nearly 3 years. Their absence, and the missing love and protection, led me to anxiety and depression. The word chrysalis defines a stage of growth – a hard case that protects a moth or butterfly as it turns into an adult. <em>Chrysalis </em>reflects the lack of family protection I experienced and how it continues to affect my adulthood.</p>",
+  "installationGrid": {
+    "aspect": "widescreen",
+    "gutter": 50,
+    "columns": 1
+  },
+  "installationViews": [
+    {
+      "src": "carring-blossom-4-b9e570.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 1 of 18"
+    },
+    {
+      "src": "dsc-3326.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 2 of 18"
+    },
+    {
+      "src": "carring-blossom-9-f44ca8.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 3 of 18"
+    },
+    {
+      "src": "carring-blossom-13-2230b3.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 4 of 18"
+    },
+    {
+      "src": "carring-blossom-2-65e596.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 5 of 18"
+    },
+    {
+      "src": "carring-blossom-f45ff4.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 6 of 18"
+    },
+    {
+      "src": "carring-blossom-7-8aa0fd.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 7 of 18"
+    },
+    {
+      "src": "carring-blossom-8-e6232a.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 8 of 18"
+    },
+    {
+      "src": "dsc-3293.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 9 of 18"
+    },
+    {
+      "src": "dsc-3297.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 10 of 18"
+    },
+    {
+      "src": "dsc-3295.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 11 of 18"
+    },
+    {
+      "src": "dsc-3323.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 12 of 18"
+    },
+    {
+      "src": "dsc-3320.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 13 of 18"
+    },
+    {
+      "src": "dsc-3331-c04298.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 14 of 18"
+    },
+    {
+      "src": "dsc-3309.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 15 of 18"
+    },
+    {
+      "src": "dsc-3312-176518.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 16 of 18"
+    },
+    {
+      "src": "dsc-3311-176518.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 17 of 18"
+    },
+    {
+      "src": "dsc-3308.jpg",
+      "alt": "Chrysalis (2024), Yoon Lee — installation view 18 of 18"
+    }
+  ],
+  "artworks": [],
+  "sqsPath": "/portfolio-3/project-one-h346n-mnen4"
+}

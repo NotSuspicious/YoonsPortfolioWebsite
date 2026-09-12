@@ -1,0 +1,44 @@
+{
+  "title": "Breath",
+  "year": "2025",
+  "details": [
+    "Clay, foil, mulberry paper, acrylics, and color pencils on Canvas",
+    "30 × 40 × 3 in"
+  ],
+  "order": 12,
+  "listed": true,
+  "cover": "breath-5780-e98bc1.jpg",
+  "sqsPath": "/new-page-71-5-4-1",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "breath-5780-760adc.jpg",
+      "alt": "Breath (2025) by Yoon Lee, Clay, foil, mulberry paper, acrylics, and color pencils on Canvas — image 1 of 5",
+      "width": 0.561
+    },
+    {
+      "type": "image",
+      "src": "breath-5784.jpg",
+      "alt": "Breath (2025) by Yoon Lee, Clay, foil, mulberry paper, acrylics, and color pencils on Canvas — image 2 of 5",
+      "width": 0.663
+    },
+    {
+      "type": "image",
+      "src": "breath-5787.jpg",
+      "alt": "Breath (2025) by Yoon Lee, Clay, foil, mulberry paper, acrylics, and color pencils on Canvas — image 3 of 5",
+      "width": 0.663
+    },
+    {
+      "type": "image",
+      "src": "breath-5786.jpg",
+      "alt": "Breath (2025) by Yoon Lee, Clay, foil, mulberry paper, acrylics, and color pencils on Canvas — image 4 of 5",
+      "width": 0.663
+    },
+    {
+      "type": "image",
+      "src": "breath-5789.jpg",
+      "alt": "Breath (2025) by Yoon Lee, Clay, foil, mulberry paper, acrylics, and color pencils on Canvas — image 5 of 5",
+      "width": 0.663
+    }
+  ]
+}

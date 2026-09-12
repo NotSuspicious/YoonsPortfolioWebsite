@@ -1,0 +1,80 @@
+{
+  "title": "Untitled",
+  "year": "2025",
+  "details": [
+    "Acrylic on Wood Panel",
+    "24 x 18 in"
+  ],
+  "order": 8,
+  "listed": true,
+  "cover": "carring-blossom-5-6e3c63.jpg",
+  "sqsPath": "/new-page-71-2-1",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "carring-blossom-5-copy.jpg",
+      "alt": "Untitled (2025) by Yoon Lee, Acrylic on Wood Panel — image 1 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "carring-blossom-6-copy.jpg",
+      "alt": "Untitled (2025) by Yoon Lee, Acrylic on Wood Panel — image 2 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "seed-0450.jpg",
+      "alt": "Untitled (2025) by Yoon Lee, Acrylic on Wood Panel — image 3 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "seed-0449.jpg",
+      "alt": "Untitled (2025) by Yoon Lee, Acrylic on Wood Panel — image 4 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "seed-0454.jpg",
+      "alt": "Untitled (2025) by Yoon Lee, Acrylic on Wood Panel — image 5 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "seed-0604.jpg",
+      "alt": "Untitled (2025) by Yoon Lee, Acrylic on Wood Panel — image 6 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

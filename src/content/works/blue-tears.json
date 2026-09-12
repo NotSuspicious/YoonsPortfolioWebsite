@@ -1,0 +1,80 @@
+{
+  "title": "Blue Tears",
+  "year": "2025",
+  "details": [
+    "Oil on Wood",
+    "16 x 20 in"
+  ],
+  "order": 11,
+  "listed": true,
+  "cover": "carring-blossom-7d3b8e.jpg",
+  "sqsPath": "/new-page-71-2",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "carring-blossom-7d3b8e.jpg",
+      "alt": "Blue Tears (2025) by Yoon Lee, Oil on Wood — image 1 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "carring-blossom-2-bdf55d.jpg",
+      "alt": "Blue Tears (2025) by Yoon Lee, Oil on Wood — image 2 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "ndm-0420.jpg",
+      "alt": "Blue Tears (2025) by Yoon Lee, Oil on Wood — image 3 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "ndm-0418.jpg",
+      "alt": "Blue Tears (2025) by Yoon Lee, Oil on Wood — image 4 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "ndm-0423.jpg",
+      "alt": "Blue Tears (2025) by Yoon Lee, Oil on Wood — image 5 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "ndm-9890.jpg",
+      "alt": "Blue Tears (2025) by Yoon Lee, Oil on Wood — image 6 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

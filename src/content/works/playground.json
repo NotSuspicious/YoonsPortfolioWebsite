@@ -1,0 +1,71 @@
+{
+  "title": "Playground",
+  "year": "2024",
+  "details": [
+    "Cotton, Felt, and String",
+    "20 x 20 x 30 in"
+  ],
+  "order": 918,
+  "listed": false,
+  "cover": "5cc93b13-9a63-4f96-8d35-410bfdd88074.jpg",
+  "sqsPath": "/new-page-71-5-3-2",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "5cc93b13-9a63-4f96-8d35-410bfdd88074.jpg",
+      "alt": "Playground (2024) by Yoon Lee, Cotton, Felt, and String — image 1 of 7",
+      "width": 0.436
+    },
+    {
+      "type": "image",
+      "src": "d900a470-ffe1-41f7-a71a-e353e4f46eee.png",
+      "alt": "Playground (2024) by Yoon Lee, Cotton, Felt, and String — image 2 of 7",
+      "width": 0.436
+    },
+    {
+      "type": "image",
+      "src": "0a07a29b-eda7-4846-a544-c3f14de28f9d.png",
+      "alt": "Playground (2024) by Yoon Lee, Cotton, Felt, and String — image 3 of 7",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "1374a46c-3ea8-4357-a7cd-9d11eac1c999.jpg",
+      "alt": "Playground (2024) by Yoon Lee, Cotton, Felt, and String — image 4 of 7",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "ae34ebdf-b89d-4fdd-85ac-9e019e2437a4.png",
+      "alt": "Playground (2024) by Yoon Lee, Cotton, Felt, and String — image 5 of 7",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "1c62841d-62f1-483e-90a3-8c6487ef7c52.jpg",
+      "alt": "Playground (2024) by Yoon Lee, Cotton, Felt, and String — image 6 of 7",
+      "width": 0.389
+    },
+    {
+      "type": "image",
+      "src": "cf6e5070-5fe4-4506-be5e-b99ff1704c17.png",
+      "alt": "Playground (2024) by Yoon Lee, Cotton, Felt, and String — image 7 of 7",
+      "width": 0.436
+    }
+  ]
+}

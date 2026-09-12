@@ -1,0 +1,45 @@
+{
+  "name": "Yoon Lee",
+  "url": "https://www.yoonslee.com",
+  "description": "Yoon Lee is a Korean-born, Los Angeles-based interdisciplinary artist working in installation, painting, and ceramics. Portfolio of works and exhibitions.",
+  "nav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    },
+    {
+      "label": "Exhibitions",
+      "href": "/exhibitions/"
+    },
+    {
+      "label": "Works",
+      "href": "/works/"
+    }
+  ],
+  "social": [
+    {
+      "type": "instagram",
+      "label": "Instagram",
+      "href": "https://www.instagram.com/yoons.piece/"
+    },
+    {
+      "type": "email",
+      "label": "moon03058@gmail.com",
+      "href": "mailto:moon03058@gmail.com"
+    }
+  ],
+  "footer": "All rights reserved by Yoon Lee",
+  "hero": {
+    "src": "background.jpg",
+    "alt": "Installation view of From Mud to Bloom, Yoon Lee, 2025",
+    "focal": [
+      0.58,
+      0.624
+    ],
+    "overlay": 0.15
+  }
+}

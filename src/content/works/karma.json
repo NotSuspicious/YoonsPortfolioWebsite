@@ -1,0 +1,75 @@
+{
+  "title": "Karma",
+  "year": "2025",
+  "details": [
+    "Ceramic",
+    "24 x 16 x 53 in"
+  ],
+  "order": 3,
+  "listed": true,
+  "cover": "eomma-0340.jpg",
+  "sqsPath": "/new-page-71-2-3",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "eomma-0340.jpg",
+      "alt": "Karma (2025) by Yoon Lee, Ceramic — image 1 of 6",
+      "width": 0.345
+    },
+    {
+      "type": "image",
+      "src": "carring-blossom-11-176518.jpg",
+      "alt": "Karma (2025) by Yoon Lee, Ceramic — image 2 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "carring-blossom-copy.jpg",
+      "alt": "Karma (2025) by Yoon Lee, Ceramic — image 3 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "carring-blossom-3-870179.jpg",
+      "alt": "Karma (2025) by Yoon Lee, Ceramic — image 4 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "eomma-0412.jpg",
+      "alt": "Karma (2025) by Yoon Lee, Ceramic — image 5 of 6",
+      "width": 0.781,
+      "crop": 1.514,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": "image",
+      "src": "dsc-9905-234a5e.jpg",
+      "alt": "Karma (2025) by Yoon Lee, Ceramic — image 6 of 6",
+      "width": 0.781,
+      "crop": 1.433,
+      "focal": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}
