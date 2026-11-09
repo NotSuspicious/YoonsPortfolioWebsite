@@ -59,6 +59,18 @@
       "columns": 4,
       "items": [
         {
+          "src": "lotus-mirror-painting.jpg",
+          "alt": "Painting by Yoon Lee — a woman seen from behind faces a wooden-framed mirror where her reflection embraces a bouquet of lotus seed pods, beside a pink lotus on a bare branch and a doe nuzzling her fawn",
+          "lightbox": true,
+          "caption": null
+        },
+        {
+          "src": "fawn-lotus-painting.jpg",
+          "alt": "Painting by Yoon Lee — a pair of arms cradles a sleeping fawn among lotus leaves, buds and a pale pink lotus flower, with a monarch butterfly, before a yellow circle on wood panel",
+          "lightbox": true,
+          "caption": null
+        },
+        {
           "src": "dsc-4085.jpg",
           "alt": "Artwork by Yoon Lee — dsc 4085",
           "lightbox": true,
